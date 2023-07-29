@@ -1,0 +1,21 @@
+<h1>Hi</h1>
+<div class="products-center9"></div>
+<script>
+  const urlParams = new URLSearchParams(window.location.search);
+  const greetingValue = urlParams.get("aaa");
+  console.log(greetingValue);
+  const productsDOM9 = document.querySelector(".products-center9");
+  var result;
+  if(greetingValue=="true"){
+    result = '<h1>' +greetingValue +'</h1>';
+  }else{
+    result = '<h1>' +'Bye' +'</h1>';
+
+  }
+  try {
+    // console.log(result);
+    productsDOM9.innerHTML = result;
+  } catch (e) {
+    console.log("Error = " + e);
+  }
+</script>

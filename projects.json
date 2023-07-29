@@ -1,0 +1,140 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "name": "SafeMate",
+        "category": "Robotics/IOT",
+        "competition": "TANSCST- STUDENT PROJECTS SCHEME-Funding Project (EME-0181)",
+        "project": "Autonomous Bot",
+        "description": "Our robot is programmed and constructed with the goal of reducing the spread of this disease in institutions and workplaces. Our Bot is coupled with contactless temperature sensing, face and mask detection. It also serves as personal assistance powered with Wolfram Alpha, Open Weather, Wiki-Powered, and packed with much more factors to serve our day-to-day office needs.",
+        "technology": "",
+        "video": "",
+        "image1": "SafeMate1",
+        "image2": "SafeMate2",
+        "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/img1.jpg",
+        "projectDate": "1 March 2022",
+        "duration": "1 year"
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "name": "NaviBot",
+        "category": "Robotics/IOT",
+        "competition": "College Final Project",
+        "project": "Navigation Bot",
+        "description": "This bot welcomes the clients entering the premises in traditional way and helps them in navigation throughout the premises. It can be used for surveillance by using object detection and also send a message to the owner if any strange behavior is noted. Developed a website using Django to maintain all the employee Details which can be accessed by all the employees and employer. AI-enabled features to interact and greet customers",
+        "technology": "",
+        "video": "https://youtu.be/QqrCg2vfLW0",
+        "image1": "NaviBot1",
+        "image2": "NaviBot2",
+        "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/img12.png",
+        "projectDate": "2 March 2022",
+        "duration": "2 months"
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "name": "OfficeGuardian",
+        "category": "Robotics/IOT",
+        "competition": "College Mini Project",
+        "project": "Employee Management Bot",
+        "description": "Small Businesses are required to follow SOPs provided by governments to curb community transmission of the covid virus. Thus, an automated non-contact attendance system is preferred. In this project we have developed a low-cost Face recognition or Barcode based internet of things (IoT)-enabled COVID-19 SOP compliance system.",
+        "technology": "",
+        "video": "https://www.youtube.com/embed/LkHWCjV7bn0",
+        "image1": "OfficeGuardian1",
+        "image2": "OfficeGuardian2",
+        "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/img14.png",
+        "projectDate": "3 March 2022",
+        "duration": "8 months"
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "name": "ARcadium",
+        "category": "App",
+        "competition": "NSTF Codissia",
+        "project": "IOTAR Application",
+        "description": "Application is developed using Augmented Reality for employee and student learning using IOTAR. It is used in learning to enhance students’ motivation and attention, in addition to that the students’ interaction with AR objects improves their understanding and memory. By creating the magical feeling of a 3D object appearing on top of the physical world.",
+        "technology": "Unity\nAR Core\nAugmented Reality\nApp Development\nAndroid",
+        "video": "https://www.youtube.com/watch?v=KQdLGSpzPxI",
+        "image1": "ARcadium1",
+        "image2": "ARcadium2",
+        "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/home_sale.png",
+        "projectDate": "4 March 2022",
+        "duration": "2 year"
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "name": "YogaVision",
+        "category": "App",
+        "competition": "SIH (Hardware edition)",
+        "project": "Fabricated IOT based VR box with Application",
+        "description": "A Virtual Reality (VR) device is made with innovative features to improve concentration while doing Yoga. The device also has a novel VR application which changes the environment with just a gaze for a couple of seconds.",
+        "technology": "Unity\nGoogle VR\n",
+        "video": "https://www.youtube.com/watch?v=F9xCMl1qXHo",
+        "image1": "YogaVision1",
+        "image2": "YogaVision2",
+        "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/img123.png",
+        "projectDate": "5 March 2022",
+        "duration": "5 year"
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "name": "SubMerge",
+        "category": "App",
+        "competition": "SIH (Software edition)",
+        "project": "Exploring the Aquatic Wonders - A Virtual Reality Underwater Museum",
+        "description": "",
+        "technology": "",
+        "video": "",
+        "image1": "SubMerge1",
+        "image2": "SubMerge2",
+        "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/img1.jpg",
+        "projectDate": "6 March 2022",
+        "duration": "7 days"
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "name": "Spikora",
+        "category": "Web",
+        "competition": "Rosary Plant House",
+        "project": "A Prickly Paradise for Plant Lovers",
+        "description": "",
+        "technology": "",
+        "video": "",
+        "image1": "Spikora1",
+        "image2": "Spikora2",
+        "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/img12.png",
+        "projectDate": "7 March 2022",
+        "duration": "9 days"
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "name": "Attendify",
+        "category": "Web",
+        "competition": "College Final Project",
+        "project": "Streamlined Attendance Tracking System",
+        "description": "",
+        "technology": "",
+        "video": "",
+        "image1": "Attendify1",
+        "image2": "Attendify2",
+        "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/img14.png",
+        "projectDate": "8 March 2022",
+        "duration": "2 years"
+      }
+    }
+  ]
+}
