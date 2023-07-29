@@ -751,16 +751,16 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
+  width: 160px;
+  border-radius: 40%;
   margin: 0 auto;
 }
 
 .testimonials .testimonial-item h3 {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #11111188;
 }
 
 .testimonials .testimonial-item h4 {
