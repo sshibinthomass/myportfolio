@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.book {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  min-width: 900px;
+  min-height: 700px;
+  background: #fbecb4;
+  position: relative;
+}
+
+.book {
+  width: 847px;
+  height: 654.5px;
+  transform: translate(-50%, -50%) rotatex(10deg) rotatey(-10deg);
+  transform-style: preserve-3d;
+}
+
+.page {
+  width: 423.5px;
+  height: 654.5px;
+  background: #eee;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: transform 1s;
+}
+
+.page:nth-child(1) {
+  padding: 2% 2% 2% 2%;
+  transform-origin: 0% 50%;
+  transform: translatez(-1px);
+  background: #9bc8d6;
+}
+
+.left-side:nth-child(1) {
+  transform: translatez(1px) rotatey(-180deg);
+}
+
+.page:nth-child(2) {
+  padding: 3% 3% 2% 3%;
+  transform-origin: 100% 50%;
+  transform: translatez(-2px) scalex(-1) translatex(100%);
+  background: #9bc8d6;
+}
+
+.left-side:nth-child(2) {
+  transform: translatez(2px) scalex(-1) translatex(100%) rotatey(180deg);
+}
+
+.page:nth-child(3) {
+  padding: 2% 2% 2% 2%;
+  transform-origin: 0% 50%;
+  transform: translatez(-3px);
+  background: #f5f5f5;
+}
+
+.left-side:nth-child(3) {
+  transform: translatez(3px) rotatey(-180deg);
+}
+
+.page:nth-child(4) {
+  padding: 3% 3% 2% 3%;
+  transform-origin: 100% 50%;
+  transform: translatez(-4px) scalex(-1) translatex(100%);
+  background: #f5f5f5;
+}
+
+.left-side:nth-child(4) {
+  transform: translatez(4px) scalex(-1) translatex(100%) rotatey(180deg);
+}
+
+.page:nth-child(5) {
+  padding: 2% 2% 2% 2%;
+  transform-origin: 0% 50%;
+  transform: translatez(-5px);
+  background: #f5f5f5;
+}
+
+.left-side:nth-child(5) {
+  transform: translatez(5px) rotatey(-180deg);
+}
+
+.page:nth-child(6) {
+  padding: 3% 3% 2% 3%;
+  transform-origin: 100% 50%;
+  transform: translatez(-6px) scalex(-1) translatex(100%);
+  background: #f5f5f5;
+}
+
+.left-side:nth-child(6) {
+  transform: translatez(6px) scalex(-1) translatex(100%) rotatey(180deg);
+}
+
+.page:nth-child(7) {
+  padding: 2% 2% 2% 2%;
+  transform-origin: 0% 50%;
+  transform: translatez(-7px);
+  background: #f5f5f5;
+}
+
+.left-side:nth-child(7) {
+  transform: translatez(7px) rotatey(-180deg);
+}
+
+.page:nth-child(8) {
+  padding: 3% 3% 2% 3%;
+  transform-origin: 100% 50%;
+  transform: translatez(-8px) scalex(-1) translatex(100%);
+  background: #f5f5f5;
+}
+
+.left-side:nth-child(8) {
+  transform: translatez(8px) scalex(-1) translatex(100%) rotatey(180deg);
+}
+
+.page:nth-child(9) {
+  padding: 2% 2% 2% 2%;
+  transform-origin: 0% 50%;
+  transform: translatez(-9px);
+  background: #f5f5f5;
+}
+
+.left-side:nth-child(9) {
+  transform: translatez(9px) rotatey(-180deg);
+}
+
+.page:nth-child(10) {
+  padding: 3% 3% 2% 3%;
+  transform-origin: 100% 50%;
+  transform: translatez(-10px) scalex(-1) translatex(100%);
+  background: #ccc;
+}
+
+.left-side:nth-child(10) {
+  transform: translatez(10px) scalex(-1) translatex(100%) rotatey(180deg);
+}
+
+.page:nth-child(11) {
+  padding: 2% 2% 2% 2%;
+  transform-origin: 0% 50%;
+  transform: translatez(-11px);
+  background: #1F2428;
+}
+
+.left-side:nth-child(11) {
+  transform: translatez(11px) rotatey(-180deg);
+}
+
+.page:nth-child(12) {
+  padding: 3% 3% 2% 3%;
+  transform-origin: 100% 50%;
+  transform: translatez(-12px) scalex(-1) translatex(100%);
+  background:#1F2428
+}
+
+.left-side:nth-child(12) {
+  transform: translatez(12px) scalex(-1) translatex(100%) rotatey(180deg);
+}
+
+.page:nth-child(13) {
+  padding: 2% 2% 2% 2%;
+  transform-origin: 0% 50%;
+  transform: translatez(-13px);
+  background: #1F2428
+}
+
+.left-side:nth-child(13) {
+  transform: translatez(13px) rotatey(-180deg);
+}
+
+.page:nth-child(14) {
+  padding: 3% 3% 2% 3%;
+  transform-origin: 100% 50%;
+  transform: translatez(-14px) scalex(-1) translatex(100%);
+  background:#1F2428
+}
+
+.left-side:nth-child(14) {
+  transform: translatez(14px) scalex(-1) translatex(100%) rotatey(180deg);
+}
+
+.page:nth-child(15) {
+  padding: 2% 2% 2% 2%;
+  transform-origin: 0% 50%;
+  transform: translatez(-15px);
+  background: #ccc;
+}
+
+.left-side:nth-child(15) {
+  transform: translatez(15px) rotatey(-180deg);
+}
+
+.page:nth-child(16) {
+  padding: 3% 3% 2% 3%;
+  transform-origin: 100% 50%;
+  transform: translatez(-16px) scalex(-1) translatex(100%);
+  background: #ccc;
+}
+
+.left-side:nth-child(16) {
+  transform: translatez(16px) scalex(-1) translatex(100%) rotatey(180deg);
+}
+
+.page:nth-child(17) {
+  padding: 2% 2% 2% 2%;
+  transform-origin: 0% 50%;
+  transform: translatez(-17px);
+  background: #ccc;
+}
+
+.left-side:nth-child(17) {
+  transform: translatez(17px) rotatey(-180deg);
+}
+
+.page:nth-child(18) {
+  padding: 3% 3% 2% 3%;
+  transform-origin: 100% 50%;
+  transform: translatez(-18px) scalex(-1) translatex(100%);
+  background: #ccc;
+}
+
+.left-side:nth-child(18) {
+  transform: translatez(18px) scalex(-1) translatex(100%) rotatey(180deg);
+}
+
+.page:nth-child(19) {
+  padding: 2% 2% 2% 2%;
+  transform-origin: 0% 50%;
+  transform: translatez(-19px);
+  background: #ccc;
+}
+
+.left-side:nth-child(19) {
+  transform: translatez(19px) rotatey(-180deg);
+}
+
+.page:nth-child(20) {
+  padding: 3% 3% 2% 3%;
+  transform-origin: 100% 50%;
+  transform: translatez(-20px) scalex(-1) translatex(100%);
+  background: #f5f5f5;
+}
+
+.left-side:nth-child(20) {
+  transform: translatez(20px) scalex(-1) translatex(100%) rotatey(180deg);
+}
+
+.cover-front:nth-child(1) {
+  text-align: center;
+  background: linear-gradient(#02c0fa, #a1d5e5) 50% 50%/80% 86% no-repeat, linear-gradient(#ffffff, #ffffff) 50% 50%/90% 93% no-repeat, linear-gradient(#9bc8d6, #9bc8d6) no-repeat;
+}
+.cover-front:nth-child(1) h1 {
+  font-family: "Lora", serif;
+  font-size: 45px;
+  color: #ffffff;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+.cover-front:nth-child(1) h2 {
+  font-family: "EB Garamond", serif;
+  font-size: 24px;
+  color: #134a78;
+  position: relative;
+  top: 40%;
+}
+.cover-front:nth-child(1) h5 {
+  font-size: 12px;
+  color: #180202;
+  position: relative;
+  top: 40%;
+}
+.cover-front:nth-child(1) .hat {
+  font-size: 100px;
+  color: #134a78;
+  position: relative;
+  top: 3%;
+}
+
+p {
+  margin-bottom: 4%;
+  font-family: "EB Garamond", serif;
+  font-size: 16px;
+}
+
+.page:nth-child(3) p:first-of-type:first-letter {
+  font-size: 32px;
+}
+
+.instruction {
+  font-size: 26px;
+  font-family: "EB Garamond", serif;
+  color: #0009;
+  background: #fff7;
+  border-radius: 15px;
+  padding: 10px 15px;
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  transform: translate(-90%, -50%);
+}

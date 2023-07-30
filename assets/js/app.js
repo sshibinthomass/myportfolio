@@ -1,6 +1,5 @@
 showProduct = document.querySelector(".show-product");
-const allPlantsDOM = document.querySelector(".all-plants");
-const navBarDOM = document.querySelector(".nav-bar-const");
+const allPlantsDOM = document.querySelector(".portfolio");
 
 const urlParams = new URLSearchParams(window.location.search);
 const project = urlParams.get("project");
