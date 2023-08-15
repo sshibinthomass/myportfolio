@@ -58,7 +58,7 @@ class Products {
 class UI {
     filter(products) {
         let result = ``;
-        console.log(project);
+        //console.log(project);
         products.forEach((product) => {
             if (project == product.name) {
                 var name = product.name;

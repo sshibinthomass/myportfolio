@@ -96,9 +96,9 @@ class AchievementsUI {
         <section id="breadcrumbs" class="breadcrumbs">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
-            <h2>${name}</h2>
+            <h2>${competition}</h2>
             <ol>
-                <li><a href="index.html#portfolio">Home</a></li>
+                <li><a href="index.html#acheivements">Home</a></li>
                 <li>${competition}</li>
             </ol>
             </div>
@@ -119,16 +119,33 @@ class AchievementsUI {
             <h3>Project information</h3>
             <ul>
               <li><strong>Category</strong>: ${category}</li>
+              <li><strong>Position</strong>: ${place}</li>
+              <li><strong>Prize</strong>: ${prize}</li>
+              <li><strong>Organizer</strong>: ${organizers}</li>
               <li><strong>Duration</strong>: ${duration}</li>
               <li><strong>Project date</strong>: ${projectDate}</li>
+              <li><strong>Preparation Time</strong>: ${preparationTime}</li>
+              <li><strong>Location</strong>: ${location}</li>
               <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
             </ul>
           </div>
         </div>
         <div class="portfolio-description">
-          <h2>${organizers}</h2>
+          <h2>About Competition</h2>
           <p>
-          &emsp;${problemStatement}
+            &emsp;${aboutCompetition}
+          </p>
+        </div>
+        <div class="portfolio-description">
+          <h2>Problem Statement</h2>
+          <p>
+            &emsp;${problemStatement}
+          </p>
+        </div>
+        <div class="portfolio-description">
+          <h2>Solution</h2>
+          <p>
+           &emsp;${solution}
           </p>
         </div>
              <iframe width="560" height="315" src="${image5}"frameborder="0" allowfullscreen>

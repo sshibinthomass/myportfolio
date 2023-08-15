@@ -1,20 +1,19 @@
-const allAchievementsDOM = document.querySelector(".all-achievements");
+const allParticipationsDOM = document.querySelector(".all-participations");
 
-//Achievements
-class Achievements {
-  async getAchievements() {
+//Participation
+class Participations {
+  async getParticipations() {
     try {
-      let result = await fetch("achievement.json");
+      let result = await fetch("participation.json");
 
       let data = await result.json();
 
-      let achievements = data.items;
+      let participations = data.items;
 
-      achievements = achievements.map((item) => {
+      participations = participations.map((item) => {
         const {
           name,
           competition,
-          place,
           organizers,
           projectDate,
           duration,
@@ -22,7 +21,6 @@ class Achievements {
           category,
           location,
           team,
-          prize,
           problemStatement,
           aboutCompetition,
           solution,
@@ -37,7 +35,6 @@ class Achievements {
         return {
           name,
           competition,
-          place,
           organizers,
           projectDate,
           duration,
@@ -45,7 +42,6 @@ class Achievements {
           category,
           location,
           team,
-          prize,
           problemStatement,
           aboutCompetition,
           solution,
@@ -56,18 +52,18 @@ class Achievements {
           image5
         };
       });
-      return achievements;
+      return participations;
     } catch (error) {
       console.log(error);
     }
   }
 }
 
-class AchievementsUI {
-  filter(achievements) {
+class ParticipationsUI {
+  filter(participations) {
     let result = ``;
     //console.log(project);
-    achievements.forEach((product) => {
+    participations.forEach((product) => {
       var id=product.id;
       var name=product.name;
       var competition=product.competition;
@@ -120,7 +116,7 @@ class AchievementsUI {
             </div>
             </div>
           <div class="d-flex justify-content-between align-items-center pt-2">
-            <a class="btn btn-sm btn-outline-secondary" href="achievement-details.html?achievement=${name}">View</a>
+            <a class="btn btn-sm btn-outline-secondary" href="participation-details.html?participation=${name}">View</a>
             <small class="text-body-secondary"><span class="badge rounded-pill text-bg-light">${projectDate}</span>
             </small> 
           </div>
@@ -130,7 +126,7 @@ class AchievementsUI {
     `;
     });
     try {
-      allAchievementsDOM.innerHTML = result;
+      allParticipationsDOM.innerHTML = result;
     } catch (e) {
       console.log("Error = " + e);
     }
@@ -139,11 +135,11 @@ class AchievementsUI {
 
 //Filter
 function filter() {
-  const achievements = new Achievements();
-  //console.log(achievements);
-  const AchievementsUi = new AchievementsUI();
-  achievements.getAchievements().then((achievements) => {
-    AchievementsUi.filter(achievements);
+  const participations = new Participations();
+  //console.log(participations);
+  const ParticipationsUi = new ParticipationsUI();
+  participations.getParticipations().then((participations) => {
+    ParticipationsUi.filter(participations);
   });
 }
 filter();

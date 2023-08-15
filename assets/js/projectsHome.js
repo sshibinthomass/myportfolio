@@ -53,7 +53,7 @@ class Products {
 class UI {
   filter(products) {
     let result = ``;
-    console.log(project);
+    //console.log(project);
     products.forEach((product) => {
       var name = product.name;
       var category = product.category;
@@ -67,7 +67,7 @@ class UI {
       var image3 = product.image3;
       var projectDate = product.projectDate;
       var duration = product.duration;
-      console.log(product);
+      //console.log(product);
       result += `
       <div class="col-lg-4 col-md-6 portfolio-item filter-${category}">
       <div class="portfolio-wrap m-2">

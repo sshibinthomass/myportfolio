@@ -7,7 +7,7 @@
       "fields": {
         "name": "SIH",
         "competition": "Smart India Hackathon(W)",
-        "place": 1,
+        "place": "1st Place",
         "organizers": "SIH [Gov of India] Ministry of Ayush",
         "projectDate": "21 December 2020",
         "duration": "3 days",
@@ -33,7 +33,7 @@
       "fields": {
         "name": "TCS_XR_Pro",
         "competition": "TCS XR Pro Hackathon",
-        "place": 3,
+        "place": "3rd Place",
         "organizers": "Gov of TamilNadu/ CII Connect/TCS",
         "projectDate": "17 October 2019",
         "duration": "1 Day",
