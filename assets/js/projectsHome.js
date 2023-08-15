@@ -1,9 +1,4 @@
-showProduct = document.querySelector(".show-product");
-const allPlantsDOM = document.querySelector(".all-plants");
-const navBarDOM = document.querySelector(".nav-bar-const");
-
-const urlParams = new URLSearchParams(window.location.search);
-const project = urlParams.get("project");
+const allProjectsDOM = document.querySelector(".all-projects");
 
 //Products
 class Products {
@@ -82,7 +77,7 @@ class UI {
     </div>`;
     });
     try {
-      allPlantsDOM.innerHTML = result;
+      allProjectsDOM.innerHTML = result;
     } catch (e) {
       console.log("Error = " + e);
     }
