@@ -1,148 +1,124 @@
 {
-  "items": [
-      {
-          "sys": {
-              "id": "1"
-          },
-          "fields": {
-              "name": "Technoxian",
-              "competition": "Technoxian World Robotics Champianship",
-              "organizers": "ABC1",
-              "projectDate": "DEF1",
-              "duration": "GHI1",
-              "preparationTime": "JKL1",
-              "category": "MNO1",
-              "location": "",
-              "team": "PQR1",
-              "problemStatement": "STU1",
-              "aboutCompetition": "TechnoXian is to inspire and build youngsters’ interest in science and technology by engaging them in project based exciting learning sessions and recognize their accomplishments",
-              "solution": "VWX1",
-              "image1": "",
-              "image2": "",
-              "image3": "",
-              "image4": "",
-              "image5": ""
-          }
-      },
-      {
-          "sys": {
-              "id": "2"
-          },
-          "fields": {
-              "name": "Tech4Bharat",
-              "competition": "Tech4Bharat",
-              "organizers": "ABC2",
-              "projectDate": "DEF2",
-              "duration": "GHI2",
-              "preparationTime": "JKL2",
-              "category": "MNO2",
-              "location": "",
-              "team": "PQR2",
-              "problemStatement": "STU2",
-              "aboutCompetition": "‘Solve4Bharat’, the annual 24-hour hackathon by PanIIT in IISC Bengaluru showcased innovation, problem solving and product development skills.",
-              "solution": "VWX2",
-              "image1": "",
-              "image2": "",
-              "image3": "",
-              "image4": "",
-              "image5": ""
-          }
-      },
-      {
-          "sys": {
-              "id": "3"
-          },
-          "fields": {
-              "name": "Pragyan",
-              "competition": "NIT Pragyan",
-              "organizers": "ABC3",
-              "projectDate": "DEF3",
-              "duration": "GHI3",
-              "preparationTime": "JKL3",
-              "category": "MNO3",
-              "location": "",
-              "team": "PQR3",
-              "problemStatement": "STU3",
-              "aboutCompetition": "Pragyan, the international techno-managerial organisation of NIT Trichy,",
-              "solution": "VWX3",
-              "image1": "",
-              "image2": "",
-              "image3": "",
-              "image4": "",
-              "image5": ""
-          }
-      },
-      {
-          "sys": {
-              "id": "4"
-          },
-          "fields": {
-              "name": "Fiction2Science",
-              "competition": "Fiction2Science",
-              "organizers": "ABC4",
-              "projectDate": "DEF4",
-              "duration": "GHI4",
-              "preparationTime": "JKL4",
-              "category": "MNO4",
-              "location": "",
-              "team": "PQR4",
-              "problemStatement": "STU4",
-              "aboutCompetition": "Fiction2science hackathon provides opportunity across India to present their innovations in future mobility on two themes: ‘Pre-crash safety’ and ‘intelligent asset tracking’ using IoT.",
-              "solution": "VWX4",
-              "image1": "",
-              "image2": "",
-              "image3": "",
-              "image4": "",
-              "image5": ""
-          }
-      },
-      {
-          "sys": {
-              "id": "5"
-          },
-          "fields": {
-              "name": "Daksh",
-              "competition": "Daksh- Sastra",
-              "organizers": "ABC5",
-              "projectDate": "DEF5",
-              "duration": "GHI5",
-              "preparationTime": "JKL5",
-              "category": "MNO5",
-              "location": "",
-              "team": "PQR5",
-              "problemStatement": "STU5",
-              "aboutCompetition": "DAKSH, is an international techno-management festival of SASTRA University.",
-              "solution": "VWX5",
-              "image1": "",
-              "image2": "",
-              "image3": "",
-              "image4": "",
-              "image5": ""
-          }
-      },
-      {
-          "sys": {
-              "id": "6"
-          },
-          "fields": {
-              "name": "STCR",
-              "competition": "Internal Conference on Smart Technologies, Communication, and Robotics",
-              "organizers": "ABC6",
-              "projectDate": "DEF6",
-              "duration": "GHI6",
-              "preparationTime": "JKL6",
-              "category": "MNO6",
-              "location": "",
-              "team": "PQR6",
-              "problemStatement": "STU6",
-              "aboutCompetition": "IEEE conference conducted by Bannari Amman Institute of Technology on Smart Technologies, Communication, and Robotics.",
-              "solution": "VWX6",
-              "image1": "",
-              "image2": "",
-              "image3": "",
-              "image4": "",
-              "image5": ""
-          }
-      }
-  ]
+    "items": [
+        {
+            "sys": {
+                "id": "1"
+            },
+            "fields": {
+                "name": "Technoxian",
+                "competition": "Technoxian World Robotics Champianship",
+                "organizers": "Technoxian",
+                "projectDate": "2019-12-03T18:30:00.000Z",
+                "duration": 2,
+                "category": "MNO1",
+                "location": "Coimbatore",
+                "team": 10,
+                "problemStatement": "",
+                "aboutCompetition": "TechnoXian is to inspire and build youngsters’ interest in science and technology by engaging them in project based exciting learning sessions and recognize their accomplishments",
+                "solution": "",
+                "image1": "Technoxian1",
+                "image2": "Technoxian2",
+                "image3": "Technoxian3",
+                "image4": "",
+                "image5": "",
+                "video": "https://www.youtube.com/embed/Z-_JV0PF6tc"
+            }
+        },
+        {
+            "sys": {
+                "id": "2"
+            },
+            "fields": {
+                "name": "Tech4Bharat",
+                "competition": "Tech4Bharat",
+                "organizers": "PanIIT",
+                "projectDate": "2020-02-27T18:30:00.000Z",
+                "duration": 2,
+                "category": "MNO2",
+                "location": "IISC, Bangalore",
+                "team": 2,
+                "problemStatement": "",
+                "aboutCompetition": "‘Solve4Bharat’, the annual 24-hour hackathon by PanIIT in IISC Bengaluru showcased innovation, problem solving and product development skills.",
+                "solution": "",
+                "image1": "Tech4Bharat1",
+                "image2": "Tech4Bharat2",
+                "image3": "Tech4Bharat3",
+                "image4": "Tech4Bharat4",
+                "image5": "Tech4Bharat5",
+                "video": ""
+            }
+        },
+        {
+            "sys": {
+                "id": "3"
+            },
+            "fields": {
+                "name": "Pragyan",
+                "competition": "NIT Pragyan",
+                "organizers": "NITTirchy",
+                "projectDate": "2019-03-15T18:30:00.000Z",
+                "duration": 2,
+                "category": "MNO3",
+                "location": "NIT Tirchy",
+                "team": "",
+                "problemStatement": "",
+                "aboutCompetition": "Pragyan, the international techno-managerial organisation of NIT Trichy,",
+                "solution": "",
+                "image1": "Pragyan1",
+                "image2": "",
+                "image3": "",
+                "image4": "",
+                "image5": "",
+                "video": ""
+            }
+        },
+        {
+            "sys": {
+                "id": "4"
+            },
+            "fields": {
+                "name": "Fiction2Science",
+                "competition": "Fiction2Science",
+                "organizers": "Continental AG",
+                "projectDate": "2019-12-10T18:30:00.000Z",
+                "duration": 1,
+                "category": "MNO4",
+                "location": "Bangalore",
+                "team": 2,
+                "problemStatement": "",
+                "aboutCompetition": "Fiction2science hackathon provides opportunity across India to present their innovations in future mobility on two themes: ‘Pre-crash safety’ and ‘intelligent asset tracking’ using IoT.",
+                "solution": "",
+                "image1": "Fiction2Science1",
+                "image2": "Fiction2Science2",
+                "image3": "Fiction2Science3",
+                "image4": "Fiction2Science4",
+                "image5": "Fiction2Science5",
+                "video": ""
+            }
+        },
+        {
+            "sys": {
+                "id": "5"
+            },
+            "fields": {
+                "name": "STCR",
+                "competition": "Internal Conference on Smart Technologies, Communication, and Robotics",
+                "organizers": "IEEE BIT",
+                "projectDate": "2021-10-08T18:30:00.000Z",
+                "duration": 2,
+                "category": "MNO6",
+                "location": "BIT, Sathy",
+                "team": 4,
+                "problemStatement": "",
+                "aboutCompetition": "IEEE conference conducted by Bannari Amman Institute of Technology on Smart Technologies, Communication, and Robotics.",
+                "solution": "",
+                "image1": "STCR1",
+                "image2": "",
+                "image3": "",
+                "image4": "",
+                "image5": "",
+                "video": ""
+            }
+        }
+    ]
 }

@@ -91,7 +91,7 @@ class AchievementsUI {
       result += `
       <div class="col">
       <div class="card shadow-sm">
-      <img src="assets/img/project/SafeMate1.jpeg" class="img-fluid" alt="" />
+      <img src="assets/img/acheivements/${image1}.jpg" class="img-fluid" alt="" />
       <div class="card-body">
           <div class="container text-left">
             <div class="row">
