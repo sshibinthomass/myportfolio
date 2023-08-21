@@ -34,6 +34,12 @@ class Achievements {
           image3,
           image4,
           image5,
+          image6,
+          image7,
+          image8,
+          image9,
+          image10,
+          video,
         } = item.fields;
         const { id } = item.sys;
 
@@ -57,6 +63,12 @@ class Achievements {
           image3,
           image4,
           image5,
+          image6,
+          image7,
+          image8,
+          image9,
+          image10,
+          video,
         };
       });
       return achievements;
@@ -92,7 +104,93 @@ class AchievementsUI {
         var image3 = product.image3;
         var image4 = product.image4;
         var image5 = product.image5;
-        result += `
+        var image6 = product.image6;
+        var image7 = product.image7;
+        var image8 = product.image8;
+        var image9 = product.image9;
+        var image10 = product.image10;
+        if (product.video == "Empty") {
+          var video =``;
+        } else {
+          var video =`<iframe width="560" height="315" src="${product.video}"frameborder="0" allowfullscreen></iframe>`;
+        };
+        if (product.image2 == "Empty") {
+          var certificate = product.image1;
+        } else {
+          var certificate = product.image2;
+        };
+        if (
+          achievement == "SIH" ||
+          achievement == "IFA" ||
+          achievement == "TNSCST" ||
+          achievement == "TCS_XR_Pro"
+        ) {
+          var carousel = `<div class="portfolio-details-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+          <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/img/acheivements/${image3}.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/acheivements/${image5}.jpg" alt="">          
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/acheivements/${image4}.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/acheivements/${image1}.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          </div>            
+        </div>`;
+        } else if (achievement == "EXPO_19" || achievement == "SAR_Tire2") {
+          var carousel = `<div class="portfolio-details-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+          <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/img/acheivements/${image1}.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/acheivements/${image3}.jpg" alt="">          
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          </div>            
+        </div>`;
+        } else {
+          var carousel = `<div class="portfolio-details-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+          <img src="assets/img/acheivements/${image1}.jpg" alt="">              
+        </div>`;
+        }
+        result += `      
         <section id="breadcrumbs" class="breadcrumbs">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
@@ -108,10 +206,7 @@ class AchievementsUI {
     <div class="container">
       <div class="row gy-4">
         <div class="col-lg-8">
-          <div class="portfolio-details-slider swiper">
-            <div class="swiper-wrapper align-items-center">
-                <img src="assets/img/project/${image1}.jpeg" alt="">
-            </div>
+${carousel}
           </div>
         </div>
         <div class="col-lg-4">
@@ -132,24 +227,18 @@ class AchievementsUI {
         </div>
         <div class="portfolio-description">
           <h2>About Competition</h2>
-          <p>
-            &emsp;${aboutCompetition}
-          </p>
+          ${aboutCompetition}
         </div>
         <div class="portfolio-description">
           <h2>Problem Statement</h2>
-          <p>
-            &emsp;${problemStatement}
-          </p>
+          ${problemStatement}
         </div>
         <div class="portfolio-description">
           <h2>Solution</h2>
-          <p>
-           &emsp;${solution}
-          </p>
-        </div>
-             <iframe width="560" height="315" src="${image5}"frameborder="0" allowfullscreen>
-             </iframe>
+          ${solution}
+          <img src="assets/img/acheivements/${certificate}.jpg" class="d-block w-100 alt="certificate">
+          </div>
+${video}
       </div>
     </div>
   </section>

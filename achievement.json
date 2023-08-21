@@ -1,264 +1,324 @@
 {
-  "items": [
-      {
-          "sys": {
-              "id": "1"
-          },
-          "fields": {
-              "name": "SIH",
-              "competition": "Smart India Hackathon(W)",
-              "place": 1,
-              "organizers": "SIH [Gov of India] Ministry of Ayush",
-              "projectDate": "21 December 2020",
-              "duration": "3 days",
-              "preparationTime": "6 Months",
-              "category": "Healthcare & Biomedical Devices (IOT-VR)",
-              "location": "Online, Supported by College",
-              "team": "6 Members",
-              "prize": "1 lakh",
-              "problemStatement": "Yoga and Meditation, An essential daily routine need motivation and proper environment.",
-              "aboutCompetition": "Smart India Hackathon is a nationwide initiative to provide students a platform to solve some of pressing problems we face in our daily lives, and thus inculcate a culture of product innovation and a mindset of problem solving.",
-              "solution": "A Virtual Reality(VR) device is made with innovative features to improve concentration while doing Yoga. The novel\nVR wearable device is 3D printed and a special biconvex lens and a headphone is attached to it. A smart phone used by\nthe individual shall be fixed to the wearable device to provide a VR experience.\n➢ The device also has a novel VR application developed using UNITY software which changes the environment with just\na gaze for a couple of seconds.\n➢ Total Virtual Reality is one of the advanced VR methods where the users can move around in the VR\napplication without physical locomotion. By moving the device at the Human Reading angle, users can move around in\nVR by reducing the usage of the external controller and empowering the user to control the VR environment\nthrough Gestures.\n➢ The application is user-friendly and it helps the users to practice Yoga with virtual guidance simultaneously. The\nYogasana can be performed well in either natural or home environment. Four environmental choices are provided to the\npractitioner, viz, Yoga hall, Natural environment, Gymnasium and Home. The practitioner will be able to move in and\naround and do Yogasana in their place of preference, say, Yoga hall, Natural environment, Gymnasium and House.\n➢ The VR application also has features representing different modes of tratak like spot and candle. Virtual buttons are\nprovided to enable user interaction with the device. Through these buttons, users will be able to control their level of\ninteraction within the Virtual environment from the external world",
-              "image1": "SIH1",
-              "image2": "SIH2",
-              "image3": "SIH3",
-              "image4": "SIH4",
-              "image5": "SIH5"
-          }
-      },
-      {
-          "sys": {
-              "id": "2"
-          },
-          "fields": {
-              "name": "TCS_XR_Pro",
-              "competition": "TCS XR Pro Hackathon",
-              "place": 3,
-              "organizers": "Gov of TamilNadu/ CII Connect/TCS",
-              "projectDate": "17 October 2019",
-              "duration": "1 Day",
-              "preparationTime": "2 Months",
-              "category": "XR",
-              "location": "TCS, Siruseri, Chennai",
-              "team": "2 Members",
-              "prize": "2 Lakh",
-              "problemStatement": "",
-              "aboutCompetition": "Connect is the flagship event of CII supported by the Gov of Tamil Nadu and Software Technology Parks of India, Ministry of Electronics and Telecommunications, and Gov of India.                        ",
-              "solution": "The potential of AR systems for can be classified into three groups: Object, model and human. The Objects are all the non-human realworld assets (workpieces, tools, environment.). The Model contains all the virtual assets (process model, documentation, design drawings). The\r\nHuman is the Student to be supported by the AR system. The AR provides an enhanced interface between digital data and human, due to improved\r\nvisualization and controls. The objects will be actual 3D models viewed by the student made of model with lighting and animation Its simply the\r\nmodel with Animation, Lighting and User Interface. The model will be a CAD model of a specific BASE TARGET, documentation, design\r\ndrawing. Human will be eliminated in this context as the entire process can be automated. The AR model can be further used to train human\r\nworkers by creating virtual models of different objects and adding the technical specifications and various functionals.\r\nSOLIDWORKS is used to design a 3D model and then the model is exported in FBX format. FBX format of the model is then imported\r\nin MAYA and the required animation in given the model and again the model is exported in FBX format with the animation and the model is kept\r\nimported in UNITY 3D.By using VUFORIA an AR Tool Kit the base target(using image) or Ground Target(using ground) or User Defined Target\r\n(using any base target) for devices that does not support Ground detection. The programming for the application is done using VISUAL STUDIO\r\nthe program used is C# developed by Microsoft. All of these is imported separately in same project in Unity 3D andAPK is developed using\r\nAndroid SDK and Android Studio.",
-              "image1": "TCS_XR_Pro1",
-              "image2": "TCS_XR_Pro2",
-              "image3": "TCS_XR_Pro3",
-              "image4": "TCS_XR_Pro4",
-              "image5": "TCS_XR_Pro5"
-          }
-      },
-      {
-          "sys": {
-              "id": "3"
-          },
-          "fields": {
-              "name": "IFA",
-              "competition": "IFA Hackathon (IOT for All)",
-              "place": 3,
-              "organizers": "MakersTribe",
-              "projectDate": "7 December 2019",
-              "duration": "2 Days",
-              "preparationTime": "- (On site)",
-              "category": "IOT",
-              "location": "Altimetrik, International Tech Park Chennai",
-              "team": "4 Members",
-              "prize": "5 Thousand",
-              "problemStatement": "",
-              "aboutCompetition": "It which encourages sustainable education, skill development and social entrepreneurship in making innovative & disruptive solutions and products which make an impact to the world.",
-              "solution": "",
-              "image1": "IFA1",
-              "image2": "IFA2",
-              "image3": "IFA3",
-              "image4": "IFA4",
-              "image5": "IFA5"
-          }
-      },
-      {
-          "sys": {
-              "id": "4"
-          },
-          "fields": {
-              "name": "EXPO_22",
-              "competition": "Project expo’22",
-              "place": 1,
-              "organizers": "SKCET",
-              "projectDate": "6 May 2022",
-              "duration": "1 Day",
-              "preparationTime": "1 Month",
-              "category": "Robotics",
-              "location": "Sri Krishna College of Engineering and Technology, Coimbatore",
-              "team": "4 Members",
-              "prize": "2 Thousand",
-              "problemStatement": "",
-              "aboutCompetition": "It is an autonomous Institution, accredited by NBA and has been offered ‘A’ Grade (3.42 out of 4 scale) by NAAC for its academic excellence.",
-              "solution": "",
-              "image1": "EXPO_221",
-              "image2": "",
-              "image3": "",
-              "image4": "",
-              "image5": ""
-          }
-      },
-      {
-          "sys": {
-              "id": "5"
-          },
-          "fields": {
-              "name": "EXPO_19",
-              "competition": "Project expo’19",
-              "place": 1,
-              "organizers": "SKCET",
-              "projectDate": "16 September 2019",
-              "duration": "1 Day",
-              "preparationTime": "1 Month",
-              "category": "AR",
-              "location": "Sri Krishna College of Engineering and Technology, Coimbatore",
-              "team": "2 Members",
-              "prize": "2 Thousand",
-              "problemStatement": "",
-              "aboutCompetition": "It is an autonomous Institution, accredited by NBA and has been offered ‘A’ Grade (3.42 out of 4 scale) by NAAC for its academic excellence.",
-              "solution": "",
-              "image1": "EXPO_191",
-              "image2": "EXPO_192",
-              "image3": "EXPO_193",
-              "image4": "",
-              "image5": ""
-          }
-      },
-      {
-          "sys": {
-              "id": "6"
-          },
-          "fields": {
-              "name": "TNSCST",
-              "competition": "Student Project Scheme (TNSCST)",
-              "place": 1,
-              "organizers": "Gov of TamilNadu",
-              "projectDate": "26 November 2022",
-              "duration": "1 Day",
-              "preparationTime": "1 Year",
-              "category": "Robotics",
-              "location": "Excel Engineering College, Komarapalayam",
-              "team": "4 Members",
-              "prize": "10 Thousand",
-              "problemStatement": "",
-              "aboutCompetition": "Under this Scheme financial support of Rs.5000/- to Rs.10000/- is provided to students to take up research projects. Prizes are given to selected projects and models.",
-              "solution": "",
-              "image1": "TNSCST1",
-              "image2": "TNSCST2",
-              "image3": "TNSCST3",
-              "image4": "TNSCST4",
-              "image5": "TNSCST5"
-          }
-      },
-      {
-          "sys": {
-              "id": "7"
-          },
-          "fields": {
-              "name": "T1_Hacks",
-              "competition": "T1 Hack 1.0",
-              "place": 1,
-              "organizers": "Placement cell SKCET",
-              "projectDate": "11 September 2020",
-              "duration": "3 Days",
-              "preparationTime": "- (On site)",
-              "category": "Application Development",
-              "location": "Sri Krishna College of Engineering and Technology, Coimbatore",
-              "team": "2 Members",
-              "prize": "",
-              "problemStatement": "",
-              "aboutCompetition": "It is an autonomous Institution, accredited by NBA and has been offered ‘A’ Grade (3.42 out of 4 scale) by NAAC for its academic excellence.",
-              "solution": "",
-              "image1": "T1_Hacks1",
-              "image2": "",
-              "image3": "",
-              "image4": "",
-              "image5": ""
-          }
-      },
-      {
-          "sys": {
-              "id": "8"
-          },
-          "fields": {
-              "name": "SAR_Tire2",
-              "competition": "SAE Tier 2",
-              "place": 1,
-              "organizers": "SAE",
-              "projectDate": "25 February 2020",
-              "duration": "1 Day",
-              "preparationTime": "6 Months",
-              "category": "Application Development/ Web Development",
-              "location": "Sri Sakthi Institute of Engineering and Technology, Coimbatore",
-              "team": "2 Members",
-              "prize": "",
-              "problemStatement": "",
-              "aboutCompetition": "SAE International is the leader in connecting and educating mobility professionals to enable safe, clean, and accessible mobility solutions.",
-              "solution": "",
-              "image1": "SAR_Tire21",
-              "image2": "SAR_Tire22",
-              "image3": "SAR_Tire23",
-              "image4": "SAR_Tire24",
-              "image5": ""
-          }
-      },
-      {
-          "sys": {
-              "id": "9"
-          },
-          "fields": {
-              "name": "AcademicExcellence",
-              "competition": "Academic Excellence Award",
-              "place": 2,
-              "organizers": "SKCET",
-              "projectDate": "10 March 2019",
-              "duration": "",
-              "preparationTime": "",
-              "category": "Academic",
-              "location": "Sri Krishna College of Engineering and Technology, Coimbatore",
-              "team": "",
-              "prize": "",
-              "problemStatement": "",
-              "aboutCompetition": "It is an autonomous Institution, accredited by NBA and has been offered ‘A’ Grade (3.42 out of 4 scale) by NAAC for its academic excellence.",
-              "solution": "",
-              "image1": "AcademicExcellence1",
-              "image2": "AcademicExcellence2",
-              "image3": "",
-              "image4": "",
-              "image5": ""
-          }
-      },
-      {
-          "sys": {
-              "id": "10"
-          },
-          "fields": {
-              "name": "StarPerformance",
-              "competition": "Certificate of Merit-Star Performace Award",
-              "place": 1,
-              "organizers": "SKCET",
-              "projectDate": "14 October 2018",
-              "duration": "",
-              "preparationTime": "",
-              "category": "Academic",
-              "location": "Sri Krishna College of Engineering and Technology, Coimbatore",
-              "team": "",
-              "prize": "",
-              "problemStatement": "",
-              "aboutCompetition": "It is an autonomous Institution, accredited by NBA and has been offered ‘A’ Grade (3.42 out of 4 scale) by NAAC for its academic excellence.",
-              "solution": "",
-              "image1": "StarPerformance1",
-              "image2": "StarPerformance2",
-              "image3": "",
-              "image4": "",
-              "image5": ""
-          }
-      }
-  ]
+    "items": [
+        {
+            "sys": {
+                "id": "1"
+            },
+            "fields": {
+                "name": "SIH",
+                "competition": "Smart India Hackathon(W)",
+                "place": "1st Place",
+                "organizers": "SIH [Gov of India] Ministry of Ayush",
+                "projectDate": "21 December 2020",
+                "duration": "3 Days",
+                "preparationTime": "6 Months",
+                "category": "Healthcare & Biomedical Devices (IOT-VR)",
+                "location": "Online, Supported by College",
+                "team": "6 Members",
+                "prize": "1 lakh",
+                "problemStatement": "<ul>\n                <li>Need Instructor & Calm environment Solution: A virtual reality device can be made which features different modes of Tratak like spot, candle etc. </li>\n                <li>This device will help in better concentration as it provides soothing environment.</li>\n                <li>Yogasana can be performed well in this environment. The VR Experience should be smooth.</li>\n                <li>VR software requirement: The VR Experience should be able to provide the virtual tour inside the yoga hall. The participant should be able to move around and do Yogasana. </li>\n                </u>",
+                "aboutCompetition": "Smart India Hackathon is a nationwide initiative to provide students a platform to solve some of pressing problems we face in our daily lives, and thus inculcate a culture of product innovation and a mindset of problem solving.",
+                "solution": "<ul>\r\n<li><b>Lightweight and durable Headset</b> - designed with flexible material and cotton cushion padding.</li>\r\n<li><b>Next Gen Lenses</b>  - offering a wide field of view with significantly reduced glare for crystal-clear HD optics.</li>\r\n<li><b>LRPF filters, Inter-pupillary distance adjuster</b>  - provides eye protection and drastically improves vision clarity.</li>\r\n<li><b>Inbuilt Spatial Audio</b>  - discover a new dimension in sound through our integrated speakers.</li>\r\n<li><b>Pulse rate monitoring </b> - keep check of your pulse and temperature.</li>\r\n<li><b>Controller-less VR </b> - no additional devices, such as controllers or wires, required. </li>\r\n<li><b>Interactive Virtual Tutor </b> - to assist you, with voice, through your yoga experience.</li>\r\n<li><b>Gaze interaction </b> - move through VR application with just your eyes.</li>\r\n<li><b>Gyroscopic walk </b> - with just a 30’  head tilt to walk through the environment and experience a safe, Total Virtual Reality of 360’.</li>\r\n<li><b>3D Virtual Buttons </b> - for easy interaction and control with VR environment and characters.</li>\r\n<li><b>Simple UI </b> - to ensure a user-friendly experience for all ages.</li>\r\n</ul>",
+                "image1": "SIH1",
+                "image2": "SIH2",
+                "image3": "SIH3",
+                "image4": "SIH4",
+                "image5": "SIH5",
+                "image6": "Empty",
+                "image7": "Empty",
+                "image8": "Empty",
+                "image9": "Empty",
+                "image10": "Empty",
+                "video": "https://www.youtube.com/embed/F9xCMl1qXHo"
+            }
+        },
+        {
+            "sys": {
+                "id": "2"
+            },
+            "fields": {
+                "name": "TCS_XR_Pro",
+                "competition": "TCS XR Pro Hackathon",
+                "place": "3rd Place",
+                "organizers": "Gov of TamilNadu/ CII Connect/TCS",
+                "projectDate": "17 October 2019",
+                "duration": "1 Day",
+                "preparationTime": "2 Months",
+                "category": "XR",
+                "location": "TCS, Siruseri, Chennai",
+                "team": "2 Members",
+                "prize": "2 Lakh",
+                "problemStatement": "",
+                "aboutCompetition": "Connect is the flagship event of CII supported by the Gov of Tamil Nadu and Software Technology Parks of India, Ministry of Electronics and Telecommunications, and Gov of India.                        ",
+                "solution": "The potential of AR systems for can be classified into three groups: Object, model and human. The Objects are all the non-human realworld assets (workpieces, tools, environment.). The Model contains all the virtual assets (process model, documentation, design drawings). The\r\nHuman is the Student to be supported by the AR system. The AR provides an enhanced interface between digital data and human, due to improved\r\nvisualization and controls. The objects will be actual 3D models viewed by the student made of model with lighting and animation Its simply the\r\nmodel with Animation, Lighting and User Interface. The model will be a CAD model of a specific BASE TARGET, documentation, design\r\ndrawing. Human will be eliminated in this context as the entire process can be automated. The AR model can be further used to train human\r\nworkers by creating virtual models of different objects and adding the technical specifications and various functionals.\r\nSOLIDWORKS is used to design a 3D model and then the model is exported in FBX format. FBX format of the model is then imported\r\nin MAYA and the required animation in given the model and again the model is exported in FBX format with the animation and the model is kept\r\nimported in UNITY 3D.By using VUFORIA an AR Tool Kit the base target(using image) or Ground Target(using ground) or User Defined Target\r\n(using any base target) for devices that does not support Ground detection. The programming for the application is done using VISUAL STUDIO\r\nthe program used is C# developed by Microsoft. All of these is imported separately in same project in Unity 3D andAPK is developed using\r\nAndroid SDK and Android Studio.",
+                "image1": "TCS_XR_Pro1",
+                "image2": "TCS_XR_Pro2",
+                "image3": "TCS_XR_Pro3",
+                "image4": "TCS_XR_Pro4",
+                "image5": "TCS_XR_Pro5",
+                "image6": "TCS_XR_Pro6",
+                "image7": "TCS_XR_Pro7",
+                "image8": "TCS_XR_Pro8",
+                "image9": "TCS_XR_Pro9",
+                "image10": "TCS_XR_Pro10",
+                "video": "Empty"
+            }
+        },
+        {
+            "sys": {
+                "id": "3"
+            },
+            "fields": {
+                "name": "IFA",
+                "competition": "IFA Hackathon (IOT for All)",
+                "place": "3rd Place",
+                "organizers": "MakersTribe",
+                "projectDate": "7 December 2019",
+                "duration": "2 Days",
+                "preparationTime": "- (On site)",
+                "category": "IOT",
+                "location": "Altimetrik, International Tech Park Chennai",
+                "team": "4 Members",
+                "prize": "5 Thousand",
+                "problemStatement": "",
+                "aboutCompetition": "It which encourages sustainable education, skill development and social entrepreneurship in making innovative & disruptive solutions and products which make an impact to the world.",
+                "solution": "",
+                "image1": "IFA1",
+                "image2": "IFA2",
+                "image3": "IFA3",
+                "image4": "IFA4",
+                "image5": "IFA5",
+                "image6": "Empty",
+                "image7": "Empty",
+                "image8": "Empty",
+                "image9": "Empty",
+                "image10": "Empty",
+                "video": "Empty"
+            }
+        },
+        {
+            "sys": {
+                "id": "4"
+            },
+            "fields": {
+                "name": "EXPO_22",
+                "competition": "Project expo’22",
+                "place": "1st Place",
+                "organizers": "SKCET",
+                "projectDate": "6 May 2022",
+                "duration": "1 Day",
+                "preparationTime": "1 Month",
+                "category": "Robotics",
+                "location": "Sri Krishna College of Engineering and Technology, Coimbatore",
+                "team": "4 Members",
+                "prize": "2 Thousand",
+                "problemStatement": "",
+                "aboutCompetition": "It is an autonomous Institution, accredited by NBA and has been offered ‘A’ Grade (3.42 out of 4 scale) by NAAC for its academic excellence.",
+                "solution": "",
+                "image1": "EXPO_221",
+                "image2": "Empty",
+                "image3": "Empty",
+                "image4": "Empty",
+                "image5": "Empty",
+                "image6": "Empty",
+                "image7": "Empty",
+                "image8": "Empty",
+                "image9": "Empty",
+                "image10": "Empty",
+                "video": "Empty"
+            }
+        },
+        {
+            "sys": {
+                "id": "5"
+            },
+            "fields": {
+                "name": "EXPO_19",
+                "competition": "Project expo’19",
+                "place": "1st Place",
+                "organizers": "SKCET",
+                "projectDate": "16 September 2019",
+                "duration": "1 Day",
+                "preparationTime": "1 Month",
+                "category": "AR",
+                "location": "Sri Krishna College of Engineering and Technology, Coimbatore",
+                "team": "2 Members",
+                "prize": "2 Thousand",
+                "problemStatement": "",
+                "aboutCompetition": "It is an autonomous Institution, accredited by NBA and has been offered ‘A’ Grade (3.42 out of 4 scale) by NAAC for its academic excellence.",
+                "solution": "",
+                "image1": "EXPO_191",
+                "image2": "EXPO_192",
+                "image3": "EXPO_193",
+                "image4": "Empty",
+                "image5": "Empty",
+                "image6": "Empty",
+                "image7": "Empty",
+                "image8": "Empty",
+                "image9": "Empty",
+                "image10": "Empty",
+                "video": "Empty"
+            }
+        },
+        {
+            "sys": {
+                "id": "6"
+            },
+            "fields": {
+                "name": "TNSCST",
+                "competition": "Student Project Scheme (TNSCST)",
+                "place": "1st Place",
+                "organizers": "Gov of TamilNadu",
+                "projectDate": "26 November 2022",
+                "duration": "1 Day",
+                "preparationTime": "1 Year",
+                "category": "Robotics",
+                "location": "Excel Engineering College, Komarapalayam",
+                "team": "4 Members",
+                "prize": "10 Thousand",
+                "problemStatement": "",
+                "aboutCompetition": "Under this Scheme financial support of Rs.5000/- to Rs.10000/- is provided to students to take up research projects. Prizes are given to selected projects and models.",
+                "solution": "",
+                "image1": "TNSCST1",
+                "image2": "TNSCST2",
+                "image3": "TNSCST3",
+                "image4": "TNSCST4",
+                "image5": "TNSCST5",
+                "image6": "Empty",
+                "image7": "Empty",
+                "image8": "Empty",
+                "image9": "Empty",
+                "image10": "Empty",
+                "video": "Empty"
+            }
+        },
+        {
+            "sys": {
+                "id": "7"
+            },
+            "fields": {
+                "name": "T1_Hacks",
+                "competition": "T1 Hack 1.0",
+                "place": "1st Place",
+                "organizers": "Placement cell SKCET",
+                "projectDate": "11 September 2020",
+                "duration": "3 Days",
+                "preparationTime": "- (On site)",
+                "category": "Application Development",
+                "location": "Sri Krishna College of Engineering and Technology, Coimbatore",
+                "team": "2 Members",
+                "prize": "",
+                "problemStatement": "",
+                "aboutCompetition": "It is an autonomous Institution, accredited by NBA and has been offered ‘A’ Grade (3.42 out of 4 scale) by NAAC for its academic excellence.",
+                "solution": "",
+                "image1": "T1_Hacks1",
+                "image2": "Empty",
+                "image3": "Empty",
+                "image4": "Empty",
+                "image5": "Empty",
+                "image6": "Empty",
+                "image7": "Empty",
+                "image8": "Empty",
+                "image9": "Empty",
+                "image10": "Empty",
+                "video": "Empty"
+            }
+        },
+        {
+            "sys": {
+                "id": "8"
+            },
+            "fields": {
+                "name": "SAR_Tire2",
+                "competition": "SAE Tier 2",
+                "place": "1st Place",
+                "organizers": "SAE",
+                "projectDate": "25 February 2020",
+                "duration": "1 Day",
+                "preparationTime": "6 Months",
+                "category": "Application Development/ Web Development",
+                "location": "Sri Sakthi Institute of Engineering and Technology, Coimbatore",
+                "team": "2 Members",
+                "prize": "",
+                "problemStatement": "",
+                "aboutCompetition": "SAE International is the leader in connecting and educating mobility professionals to enable safe, clean, and accessible mobility solutions.",
+                "solution": "",
+                "image1": "SAR_Tire21",
+                "image2": "SAR_Tire22",
+                "image3": "SAR_Tire23",
+                "image4": "SAR_Tire24",
+                "image5": "Empty",
+                "image6": "Empty",
+                "image7": "Empty",
+                "image8": "Empty",
+                "image9": "Empty",
+                "image10": "Empty",
+                "video": "Empty"
+            }
+        },
+        {
+            "sys": {
+                "id": "9"
+            },
+            "fields": {
+                "name": "AcademicExcellence",
+                "competition": "Academic Excellence Award",
+                "place": "2nd Place",
+                "organizers": "SKCET",
+                "projectDate": "10 March 2019",
+                "duration": "",
+                "preparationTime": "",
+                "category": "Academic",
+                "location": "Sri Krishna College of Engineering and Technology, Coimbatore",
+                "team": "",
+                "prize": "",
+                "problemStatement": "",
+                "aboutCompetition": "It is an autonomous Institution, accredited by NBA and has been offered ‘A’ Grade (3.42 out of 4 scale) by NAAC for its academic excellence.",
+                "solution": "",
+                "image1": "AcademicExcellence1",
+                "image2": "AcademicExcellence2",
+                "image3": "Empty",
+                "image4": "Empty",
+                "image5": "Empty",
+                "image6": "Empty",
+                "image7": "Empty",
+                "image8": "Empty",
+                "image9": "Empty",
+                "image10": "Empty",
+                "video": "Empty"
+            }
+        },
+        {
+            "sys": {
+                "id": "10"
+            },
+            "fields": {
+                "name": "StarPerformance",
+                "competition": "Certificate of Merit-Star Performace Award",
+                "place": "1st Place",
+                "organizers": "SKCET",
+                "projectDate": "14 October 2018",
+                "duration": "",
+                "preparationTime": "",
+                "category": "Academic",
+                "location": "Sri Krishna College of Engineering and Technology, Coimbatore",
+                "team": "",
+                "prize": "",
+                "problemStatement": "",
+                "aboutCompetition": "It is an autonomous Institution, accredited by NBA and has been offered ‘A’ Grade (3.42 out of 4 scale) by NAAC for its academic excellence.",
+                "solution": "",
+                "image1": "StarPerformance1",
+                "image2": "StarPerformance2",
+                "image3": "Empty",
+                "image4": "Empty",
+                "image5": "Empty",
+                "image6": "Empty",
+                "image7": "Empty",
+                "image8": "Empty",
+                "image9": "Empty",
+                "image10": "Empty",
+                "video": "Empty"
+            }
+        }
+    ]
 }

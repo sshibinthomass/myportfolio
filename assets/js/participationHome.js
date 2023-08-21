@@ -100,14 +100,6 @@ class ParticipationsUI {
             </div>
             <div class="row">
               <div class="col-4 p-0">
-                <b>Position</b>
-              </div>
-              <div class="col-8 p-0">
-                :<span class="badge text-bg-danger">${place}</span>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-4 p-0">
                 <b>Organizer</b>
               </div>
               <div class="col-8 p-0">
