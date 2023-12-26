@@ -1,140 +1,156 @@
 {
   "items": [
-    {
-      "sys": { "id": "1" },
-      "fields": {
-        "name": "SafeMate",
-        "category": "Robotics",
-        "competition": "TANSCST- STUDENT PROJECTS SCHEME-Funding Project (EME-0181)",
-        "project": "Autonomous Bot",
-        "description": "Our robot is programmed and constructed with the goal of reducing the spread of this disease in institutions and workplaces. Our Bot is coupled with contactless temperature sensing, face and mask detection. It also serves as personal assistance powered with Wolfram Alpha, Open Weather, Wiki-Powered, and packed with much more factors to serve our day-to-day office needs.",
-        "technology": "",
-        "video": "",
-        "image1": "SafeMate1",
-        "image2": "SafeMate2",
-        "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/img1.jpg",
-        "projectDate": "1 March 2022",
-        "duration": "1 year"
+      {
+          "sys": {
+              "id": "1"
+          },
+          "fields": {
+              "name": "SafeMate",
+              "category": "Robotics",
+              "competition": "TANSCST- STUDENT PROJECTS SCHEME-Funding Project (EME-0181)",
+              "project": "Autonomous Bot",
+              "description": "<ul>\n    <li>It is programmed and constructed with the goal of reducing the spread of this disease in institutions and workplaces. This means that it is designed to prevent or minimize the transmission of the virus that causes COVID-19, a respiratory illness that has affected millions of people worldwide.</li>\n    <li>It is coupled with contactless temperature sensing, face and mask detection. This means that it can measure the body temperature of people without touching them, and detect if they are wearing a face mask or not, by using infrared sensors and computer vision algorithms. These features can help identify potential cases of infection and enforce safety measures.</li>\n    <li>It also serves as personal assistance powered with Wolfram Alpha, Open Weather, Wiki-Powered, and packed with much more factors to serve our day-to-day office needs. This means that it can provide various services and information to the users, such as answering questions, giving weather updates, searching for facts, and performing calculations, by using different online platforms and databases . These features can help improve productivity and efficiency in the workplace.</li>\n  </ul>",
+              "technology": "",
+              "video": "",
+              "image1": "SafeMate1",
+              "image2": "SafeMate2",
+              "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/img1.jpg",
+              "projectDate": "1 March 2022",
+              "duration": "1 year"
+          }
+      },
+      {
+          "sys": {
+              "id": "2"
+          },
+          "fields": {
+              "name": "NaviBot",
+              "category": "Robotics",
+              "competition": "College Final Project",
+              "project": "Navigation Bot",
+              "description": "<ul>\n    <li>It welcomes the clients who enter the premises in a traditional way. This means that it recognizes the clients’ faces, names, and preferences, and greets them with a customized message that reflects their culture and language.</li>\n    <li>It helps them navigate throughout the premises. This means that it guides the clients to their desired destination, such as a meeting room, a cafeteria, or an exit, by using voice commands, gestures, or a map display.</li>\n    <li>It can be used for surveillance by using object detection. This means that it monitors the premises for any suspicious or unauthorized activities, such as theft, vandalism, or trespassing, by using a camera and an artificial intelligence model that can identify different objects and people.</li>\n    <li>It also sends a message to the owner if it notes any strange behavior. This means that it alerts the owner of any potential threats or incidents that occur on the premises, such as a fire, a break-in, or a medical emergency, by using a text message, an email, or a phone call.</li>\n    <li>I created a website using Django to maintain all the employee details which can be accessed by all the employees and the employer. This means that I used a Python-based framework to build a web application that can store and manage the information of all the employees working on the premises, such as their names, roles, salaries, attendance, performance, and feedback. The website can be accessed by any employee or employer who has a valid username and password.</li>\n    <li>The website has AI-enabled features to interact and greet customers. This means that the website can also communicate with the clients who visit the web page, by using natural language processing and generation techniques that can understand and respond to their queries and requests.</li>\n  </ul>",
+              "technology": " ",
+              "video": "https://www.youtube.com/embed/QqrCg2vfLW0",
+              "image1": "NaviBot1",
+              "image2": "NaviBot2",
+              "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/img12.png",
+              "projectDate": "2 March 2022",
+              "duration": "2 months"
+          }
+      },
+      {
+          "sys": {
+              "id": "3"
+          },
+          "fields": {
+              "name": "OfficeGuardian",
+              "category": "Robotics",
+              "competition": "College Mini Project",
+              "project": "Employee Management Bot",
+              "description": "<p>\n    The COVID-19 pandemic has posed unprecedented challenges for small businesses around the world. To curb the\n    community transmission of the virus, governments have issued various standard operating procedures (SOPs) for\n    different sectors and industries. These SOPs may include measures such as wearing masks, maintaining social\n    distancing, checking body temperature, and recording attendance of employees and customers.<br><br>\n    However, implementing these SOPs can be costly and cumbersome for small businesses, especially if they rely on\n    manual or contact-based methods. For example, using a pen and paper or a fingerprint scanner to record attendance\n    can increase the risk of infection and cross-contamination. Moreover, manual methods can be prone to errors, fraud,\n    and manipulation, which can affect the accuracy and reliability of the data.<br><br>\n    Therefore, small businesses need an automated non-contact attendance system that can help them comply with the\n    COVID-19 SOPs in an efficient and affordable way. Such a system should be able to verify the identity of the people\n    who enter the premises, check their temperature and mask status, and record their attendance in a secure database.\n    The system should also be able to generate reports and alerts for the business owners or managers to monitor the\n    compliance level and take necessary actions.<br> <br>\n    In this project, we have developed a low-cost face recognition or barcode based internet of things (IoT)-enabled\n    COVID-19 SOP compliance system for small businesses.\n    <b>Our system consists of the following components:</b>\n<ul>\n    <li>When a person wants to enter the premises, he or she has to stand in front of the device and scan his or her\n        face or barcode. The face recognition or barcode recognition software will compare the scanned image with the\n        existing database and confirm if the person is authorized to enter or not.</li>\n    <li>If the person is authorized, the device will prompt him or her to remove his or her mask (if wearing one) and\n        measure his or her temperature using the infrared thermometer. The device will display the temperature reading\n        and indicate if it is within the normal range or not.</li>\n    <li>If the person has a normal temperature, he or she can put on his or her mask again (if required) and enter the\n        premises. The device will record his or her attendance along with other details such as name, time, date,\n        location, temperature, and mask status.</li>\n    <li>If the person has a high temperature or is not wearing a mask (if required), he or she will be denied entry and\n        asked to follow the appropriate SOPs. The device will also send an alert to the business owner or manager via\n        email or SMS.</li>\n    <li>The device will send all the data collected to the web application via the IoT platform. The web application\n        will store and process the data in a secure database.</li>\n    <li>The business owner or manager can log in to the web application and view and manage the data through a\n        dashboard. The dashboard will show various metrics such as total number of entries, number of entries with high\n        temperature, number of entries without mask, number of entries by time period, etc. The dashboard will also\n        generate reports and graphs that can help analyze the compliance level and identify any issues or trends.</li>\n\n</ul>\n<b>Our system has several advantages over other existing systems:</b>\n\n\n<ul>\n    <li>It is low-cost as it does not require any expensive hardware or installation. It can be configured using any\n        existing device with a camera and an internet connection.</li>\n    <li>It is non-contact as it does not require any physical contact between the person and the device or any other\n        equipment. It reduces the risk of infection and cross-contamination.</li>\n    <li>It is accurate as it uses advanced face recognition or barcode recognition technology that can identify people\n        even with changes in facial features or accessories. It also uses an infrared thermometer that can measure\n        temperature without touching.</li>\n    <li>It is flexible as it can be used with either face recognition or barcode recognition depending on the preference\n        and availability of resources. It can also be customized to suit different SOPs and scenarios.</li>\n    <li>It is user-friendly as it has a simple and intuitive interface that guides the user through the process. It also\n        has a voice assistant that can provide instructions and feedback in different languages.</li>\n    <li>It is scalable as it can handle multiple devices and locations. It can also be integrated with other systems\n        such as HRMS, payroll, or CRM.</li>\n</ul>\nWe believe that our system can help small businesses comply with the COVID-19 SOPs in an effective and affordable way.\nIt can also improve the safety and productivity of the employees and customers. We hope that our system can contribute\nto the fight against the pandemic and the recovery of the economy.\n</p>",
+              "technology": "",
+              "video": "https://www.youtube.com/embed/LkHWCjV7bn0",
+              "image1": "OfficeGuardian1",
+              "image2": "OfficeGuardian2",
+              "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/img14.png",
+              "projectDate": "3 March 2022",
+              "duration": "8 months"
+          }
+      },
+      {
+          "sys": {
+              "id": "4"
+          },
+          "fields": {
+              "name": "ARcadium",
+              "category": "App",
+              "competition": "NSTF Codissia",
+              "project": "IOTAR Application",
+              "description": "<p align=\"justify\">&emsp;Augmented reality (AR) is a technology that overlays digital information such as sounds, videos, and graphics on top of the real-world environment. AR can enhance the learning experience by providing interactive and immersive content that can stimulate learners’ motivation, attention, and understanding. Internet of things (IoT) is a technology that connects physical devices, such as sensors, cameras, and actuators, to the internet and enables data transmission and synchronization. IoT can enable the collection and analysis of real-time data from the environment and support the creation of smart and adaptive learning scenarios.<br><br>\n\n    &emsp;IOTAR is a term that combines AR and IoT to create a novel learning paradigm that leverages the advantages of both technologies. IOTAR can provide learners with contextualized and personalized learning content that is based on their location, preferences, and performance. IOTAR can also enable learners to interact with both physical and virtual objects and manipulate them in real time.<br><br>\n\n<b>Our application is developed using AR for employee and student learning using IOTAR. Our application has the following features and benefits:</b>\n<ul>\n<li>It uses AR to display 3D models of objects or concepts that are relevant to the learning objectives, such as anatomy, chemistry, physics, or engineering. Learners can explore the models from different angles and perspectives, zoom in and out, and rotate them. This can improve their spatial abilities and comprehension.</li>\n<li>It uses IoT to collect data from sensors or devices that are embedded in the environment or worn by the learners, such as temperature, humidity, heart rate, or brain activity. The application uses this data to adjust the difficulty level, feedback, or content of the learning activities according to the learners’ needs and preferences. This can enhance their engagement and satisfaction.</li>\n<li>It uses AR to create gamified learning experiences that can motivate and challenge learners. The application uses elements such as points, badges, leaderboards, or quests to reward learners for their achievements and progress. The application also uses AR to create immersive scenarios or stories that can stimulate learners’ curiosity and creativity.</li>\n<li>It uses IoT to enable collaboration and communication among learners who are located in different places. The application allows learners to share their AR experiences with others through live video or audio chat. The application also allows learners to work together on projects or tasks that involve both physical and virtual objects.</li>\n<li>It uses AR to create a magical feeling of a 3D object appearing on top of the physical world. The application makes use of advanced projection techniques that can make the virtual objects look realistic and seamless with the real environment. The application also makes use of haptic feedback that can make the learners feel the texture or shape of the virtual objects.</li>\n</ul><br>\n\n<b>Our application can be used for various purposes and contexts, such as:</b>\n<ul>\n<li>Employee training: Our application can help employees learn new skills or update their knowledge in a fun and engaging way. Our application can also help employees practice their skills in realistic simulations that mimic their work environment.</li>\n<li>Student education: Our application can help students learn complex or abstract concepts in a visual and interactive way. Our application can also help students develop their creativity and problem-solving skills by allowing them to create their own AR projects.</li>\n<li>Lifelong learning: Our application can help anyone who wants to learn something new or pursue their interests in a flexible and convenient way. Our application can also help anyone who wants to enhance their memory and cognitive abilities by providing them with stimulating AR experiences.</li>\n<li>We believe that our application can transform education and enhance learning by using AR and IoT technologies. We hope that our application can inspire learners of all ages and backgrounds to explore, discover, and create.</li>\n</ul>\n</p>",
+              "technology": "Unity#$#AR Core#$#Augmented Reality#$#App Development\nAndroid",
+              "video": "https://www.youtube.com/embed/KQdLGSpzPxI",
+              "image1": "ARcadium1",
+              "image2": "ARcadium2",
+              "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/home_sale.png",
+              "projectDate": "4 March 2022",
+              "duration": "2 year"
+          }
+      },
+      {
+          "sys": {
+              "id": "5"
+          },
+          "fields": {
+              "name": "YogaVision",
+              "category": "App",
+              "competition": "SIH (Hardware edition)",
+              "project": "Fabricated IOT based VR box with Application",
+              "description": "<p align=\"justify\">&emsp;Yoga is an ancient practice that involves physical, mental, and spiritual disciplines that aim to harmonize the body, mind, and soul. Yoga can provide various benefits such as improving flexibility, strength, balance, posture, breathing, blood circulation, immunity, and mental health. However, practicing yoga can also be challenging, especially for beginners or people who have busy or stressful lifestyles. It can be hard to find a suitable place, time, or instructor to do yoga. It can also be difficult to maintain focus, motivation, and relaxation while doing yoga.<br><br>\n\n&emsp;To address these challenges, we have developed a VR device that is specially designed to enhance the yoga experience. Our VR device is not just a regular headset that immerses you in a virtual world. It is a smart and interactive device that adapts to your needs and preferences and guides you through your yoga journey. <br><br>\n\n<b>Our VR device has the following features:</b>\n<ul>\n<li>Lightweight and durable headset: Our headset is made of flexible material and cotton cushion padding that makes it comfortable and easy to wear. It does not cause any pressure or irritation on your face or head. It is also durable and resistant to wear and tear.</li>\n<li>Next-gen lenses: Our lenses offer a wide field of view with significantly reduced glare for crystal-clear HD optics. You can enjoy a realistic and vivid view of the virtual environment without any distortion or blurriness.</li>\n<li>LRPF filters, inter-pupillary distance adjuster: Our filters provide eye protection and drastically improve vision clarity by blocking harmful blue light and enhancing contrast and color. Our adjuster allows you to customize the distance between the lenses according to your eye shape and size. This ensures optimal comfort and clarity for your eyes.</li>\n<li>Inbuilt spatial audio: Our headset has integrated speakers that deliver high-quality sound that matches the virtual environment. You can hear the sounds of nature, music, or the voice of the virtual tutor from different directions and distances. This creates a sense of immersion and presence in the virtual world.</li>\n<li>Pulse rate monitoring: Our headset has a sensor that measures your pulse rate and temperature while you do yoga. This helps you monitor your health and wellness and adjust your pace and intensity accordingly.</li>\n<li>Controller-less VR: Our device does not require any additional devices, such as controllers or wires, to operate. You can interact with the virtual environment using only your head movements, eye gaze, voice commands, or gestures. This makes the experience more natural and intuitive.</li>\n<li>Interactive virtual tutor: Our device has a virtual tutor that assists you with your yoga experience. The tutor can recognize your voice and respond to your questions or requests. The tutor can also provide instructions, feedback, tips, or encouragement while you do yoga. The tutor can adapt to your skill level, goals, and preferences and customize the yoga sessions accordingly.</li>\n<li>Gaze interaction: Our device has a gaze interaction feature that allows you to move through the VR application with just your eyes. You can change the environment with just a gaze for a couple of seconds. For example, you can gaze at a mountain icon to switch to a mountain scenery or gaze at a beach icon to switch to a beach scenery.</li>\n<li>Gyroscopic walk: Our device has a gyroscopic walk feature that allows you to walk through the environment with just a 30-degree head tilt. You can explore the virtual world and experience a safe, total VR of 360 degrees.\n<li>3D virtual buttons: Our device has 3D virtual buttons that allow you to easily interact and control the VR environment and characters. You can use these buttons to pause, resume, skip, repeat, or exit the yoga session. You can also use these buttons to select different options or settings for the yoga session.\n<li>Simple UI: Our device has a simple and user-friendly interface that ensures a smooth and hassle-free experience for all ages. You can easily navigate through the menus and options using your gaze or voice.\n</ul>\n<b>Our VR device can be used for various purposes and contexts, such as:</b>\n<ul>\n<li>Employee wellness: Our VR device can help employees improve their physical and mental health by providing them with an accessible and enjoyable way to do yoga. Our VR device can also help employees reduce stress, anxiety, fatigue, and burnout by providing them with a relaxing and refreshing escape from their work environment.</li>\n<li>Student education: Our VR device can help students learn about yoga and its benefits by providing them with an interactive and immersive way to practice yoga. Our VR device can also help students develop their concentration, memory, creativity, and problem-solving skills by providing them with stimulating and challenging VR experiences.</li>\n<li>Lifelong learning: Our VR device can help anyone who wants to learn or improve their yoga skills by providing them with a personalized and adaptive way to do yoga. Our VR device can also help anyone who wants to enhance their well-being and happiness by providing them with a fun and rewarding VR experience.</li>\n<li>We believe that our VR device can revolutionize yoga and enhance learning by using innovative features and technologies. We hope that our VR device can inspire learners of all ages and backgrounds to practice yoga and achieve their goals.</li>\n</ul>\n</p>",
+              "technology": "Unity#$#Google VR",
+              "video": "https://www.youtube.com/embed/F9xCMl1qXHo",
+              "image1": "YogaVision1",
+              "image2": "YogaVision2",
+              "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/img123.png",
+              "projectDate": "5 March 2022",
+              "duration": "5 year"
+          }
+      },
+      {
+          "sys": {
+              "id": "6"
+          },
+          "fields": {
+              "name": "SubMerge",
+              "category": "App",
+              "competition": "SIH (Software edition)",
+              "project": "Exploring the Aquatic Wonders - A Virtual Reality Underwater Museum",
+              "description": "",
+              "technology": "",
+              "video": "https://www.youtube.com/embed/9ubWJePQCwg",
+              "image1": "SubMerge1",
+              "image2": "SubMerge2",
+              "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/img1.jpg",
+              "projectDate": "6 March 2022",
+              "duration": "7 days"
+          }
+      },
+      {
+          "sys": {
+              "id": "7"
+          },
+          "fields": {
+              "name": "Spikora",
+              "category": "Web",
+              "competition": "Rosary Plant House",
+              "project": "A Prickly Paradise for Plant Lovers",
+              "description": "",
+              "technology": "",
+              "video": "",
+              "image1": "Spikora1",
+              "image2": "Spikora2",
+              "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/img12.png",
+              "projectDate": "7 March 2022",
+              "duration": "9 days"
+          }
+      },
+      {
+          "sys": {
+              "id": "8"
+          },
+          "fields": {
+              "name": "Attendify",
+              "category": "Web",
+              "competition": "College Final Project",
+              "project": "Streamlined Attendance Tracking System",
+              "description": "<p align=\"justify\">&emsp;\nManaging employee details and customer interactions are two important aspects of any business. However, these tasks can be time-consuming, tedious, and error-prone if done manually or using outdated systems. Therefore, you decided to develop a website using Django, a Python-based framework that can help you create and manage a web application with ease and efficiency.\n\n<br><br>&emsp;Django is a high-level framework that follows the model-view-template (MVT) architecture. This means that it separates the data (model), the logic (view), and the presentation (template) of the web application. This allows you to organize your code in a modular and reusable way, and to avoid duplication and inconsistency. Django also provides various features and tools that can help you with common web development tasks, such as authentication, security, database management, URL routing, testing, debugging, etc.\n\n<br><br>&emsp;Using Django, you developed a website that can maintain all the employee details that are relevant to your business. These details include their names, roles, salaries, attendance, performance, and feedback. You used a relational database system, such as SQLite, PostgreSQL, or MySQL, to store and manage these data. You also used Django’s built-in authentication system to create user accounts for all the employees and the employer. You assigned different permissions and access levels to these accounts based on their roles and responsibilities.\n\n<br><br>&emsp;The website can be accessed by any employee or employer who has a valid username and password. The website has a simple and user-friendly interface that allows them to view, edit, add, or delete the employee details as per their needs and rights. The website also has a dashboard that shows various metrics and statistics related to the employee details, such as the total number of employees, the average salary, the attendance rate, the performance score, etc. The website also generates reports and graphs that can help analyze the employee data and identify any issues or trends.\n\n<br><br>&emsp;The website also has AI-enabled features to interact and greet customers who visit the web page. These features use natural language processing (NLP) and natural language generation (NLG) techniques that can understand and respond to the customers’ queries and requests. NLP is a branch of artificial intelligence that deals with analyzing and processing human language. NLG is a branch of artificial intelligence that deals with generating human language from data or information.\n\n<br><br>&emsp;The website uses NLP techniques such as tokenization, stemming, lemmatization, part-of-speech tagging, named entity recognition, sentiment analysis, etc., to extract meaningful information from the customers’ inputs. The website also uses NLG techniques such as templates, rules, grammars, neural networks, etc., to generate appropriate and coherent outputs for the customers.\n\n<br><br>&emsp;The website can communicate with the customers using text or voice. The website can also recognize and support different languages based on the customers’ preferences or locations. The website can provide various services and information to the customers, such as answering questions about the products or services offered by the business, providing feedback or suggestions based on the customers’ needs or interests, booking appointments or reservations, confirming orders or payments, etc.\n\n<br><br>&emsp;The website can also greet the customers in a friendly and personalized way by using their names or other details if available. The website can also use emoticons or emojis to express emotions or moods. The website can also use humor or jokes to create a positive and engaging atmosphere for the customers.\n\n<br><br>&emsp;The website aims to provide a satisfying and enjoyable experience for both the employees and the customers by using Django and AI technologies. The website can help improve the efficiency and productivity of the business by automating and streamlining the employee management and customer interaction processes. The website can also help increase the loyalty and retention of the customers by providing them with relevant and timely information and services.\n</p>",
+              "technology": "",
+              "video": "",
+              "image1": "Attendify1",
+              "image2": "Attendify2",
+              "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/img14.png",
+              "projectDate": "8 March 2022",
+              "duration": "2 years"
+          }
       }
-    },
-    {
-      "sys": { "id": "2" },
-      "fields": {
-        "name": "NaviBot",
-        "category": "Robotics",
-        "competition": "College Final Project",
-        "project": "Navigation Bot",
-        "description": "This bot welcomes the clients entering the premises in traditional way and helps them in navigation throughout the premises. It can be used for surveillance by using object detection and also send a message to the owner if any strange behavior is noted. Developed a website using Django to maintain all the employee Details which can be accessed by all the employees and employer. AI-enabled features to interact and greet customers",
-        "technology": "",
-        "video": "https://www.youtube.com/embed/QqrCg2vfLW0",
-        "image1": "NaviBot1",
-        "image2": "NaviBot2",
-        "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/img12.png",
-        "projectDate": "2 March 2022",
-        "duration": "2 months"
-      }
-    },
-    {
-      "sys": { "id": "3" },
-      "fields": {
-        "name": "OfficeGuardian",
-        "category": "Robotics",
-        "competition": "College Mini Project",
-        "project": "Employee Management Bot",
-        "description": "Small Businesses are required to follow SOPs provided by governments to curb community transmission of the covid virus. Thus, an automated non-contact attendance system is preferred. In this project we have developed a low-cost Face recognition or Barcode based internet of things (IoT)-enabled COVID-19 SOP compliance system.",
-        "technology": "",
-        "video": "https://www.youtube.com/embed/LkHWCjV7bn0",
-        "image1": "OfficeGuardian1",
-        "image2": "OfficeGuardian2",
-        "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/img14.png",
-        "projectDate": "3 March 2022",
-        "duration": "8 months"
-      }
-    },
-    {
-      "sys": { "id": "4" },
-      "fields": {
-        "name": "ARcadium",
-        "category": "App",
-        "competition": "NSTF Codissia",
-        "project": "IOTAR Application",
-        "description": "Application is developed using Augmented Reality for employee and student learning using IOTAR. It is used in learning to enhance students’ motivation and attention, in addition to that the students’ interaction with AR objects improves their understanding and memory. By creating the magical feeling of a 3D object appearing on top of the physical world.",
-        "technology": "Unity\nAR Core\nAugmented Reality\nApp Development\nAndroid",
-        "video": "https://www.youtube.com/embed/KQdLGSpzPxI",
-        "image1": "ARcadium1",
-        "image2": "ARcadium2",
-        "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/home_sale.png",
-        "projectDate": "4 March 2022",
-        "duration": "2 year"
-      }
-    },
-    {
-      "sys": { "id": "5" },
-      "fields": {
-        "name": "YogaVision",
-        "category": "App",
-        "competition": "SIH (Hardware edition)",
-        "project": "Fabricated IOT based VR box with Application",
-        "description": "A Virtual Reality (VR) device is made with innovative features to improve concentration while doing Yoga. The device also has a novel VR application which changes the environment with just a gaze for a couple of seconds.",
-        "technology": "Unity\nGoogle VR\n",
-        "video": "https://www.youtube.com/embed/F9xCMl1qXHo",
-        "image1": "YogaVision1",
-        "image2": "YogaVision2",
-        "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/img123.png",
-        "projectDate": "5 March 2022",
-        "duration": "5 year"
-      }
-    },
-    {
-      "sys": { "id": "6" },
-      "fields": {
-        "name": "SubMerge",
-        "category": "App",
-        "competition": "SIH (Software edition)",
-        "project": "Exploring the Aquatic Wonders - A Virtual Reality Underwater Museum",
-        "description": "",
-        "technology": "",
-        "video": "",
-        "image1": "SubMerge1",
-        "image2": "SubMerge2",
-        "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/img1.jpg",
-        "projectDate": "6 March 2022",
-        "duration": "7 days"
-      }
-    },
-    {
-      "sys": { "id": "7" },
-      "fields": {
-        "name": "Spikora",
-        "category": "Web",
-        "competition": "Rosary Plant House",
-        "project": "A Prickly Paradise for Plant Lovers",
-        "description": "",
-        "technology": "",
-        "video": "",
-        "image1": "Spikora1",
-        "image2": "Spikora2",
-        "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/img12.png",
-        "projectDate": "7 March 2022",
-        "duration": "9 days"
-      }
-    },
-    {
-      "sys": { "id": "8" },
-      "fields": {
-        "name": "Attendify",
-        "category": "Web",
-        "competition": "College Final Project",
-        "project": "Streamlined Attendance Tracking System",
-        "description": "",
-        "technology": "",
-        "video": "",
-        "image1": "Attendify1",
-        "image2": "Attendify2",
-        "image3": "https://raw.githubusercontent.com/sshibinthomass/Rosary-Plant-House/master/assets/img/img14.png",
-        "projectDate": "8 March 2022",
-        "duration": "2 years"
-      }
-    }
   ]
 }

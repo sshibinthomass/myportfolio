@@ -221,7 +221,7 @@ ${carousel}
               <li><strong>Project date</strong>: ${projectDate}</li>
               <li><strong>Preparation Time</strong>: ${preparationTime}</li>
               <li><strong>Location</strong>: ${location}</li>
-              <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+              <!--<li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>-->
             </ul>
           </div>
         </div>
@@ -236,9 +236,9 @@ ${carousel}
         <div class="portfolio-description">
           <h2>Solution</h2>
           ${solution}
+          ${video}
           <img src="assets/img/acheivements/${certificate}.jpg" class="d-block w-100 alt="certificate">
           </div>
-${video}
       </div>
     </div>
   </section>

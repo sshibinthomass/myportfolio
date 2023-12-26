@@ -73,7 +73,10 @@ class UI {
       <div class="portfolio-wrap m-2">
         <img src="assets/img/project/${image1}.jpeg" class="img-fluid" alt="" />
       </div>
-      <h4 class="text-center pt-2"><a href="portfolio-details.html?project=${name}">${name}</a></h4>
+          <div class="d-flex justify-content-between align-items-center pt-2 m-2">
+            <a class="btn btn-sm btn-outline-secondary" href="portfolio-details.html?project=${name}">View</a>
+            <h4 class="text-center pt-2">${name}</h4>
+          </div>
     </div>`;
     });
     try {

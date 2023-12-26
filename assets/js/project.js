@@ -66,7 +66,7 @@ class UI {
                 var competition = product.competition;
                 var projects = product.project;
                 var description = product.description;
-                var technology = product.technology;
+                var technology = product.technology.split("#$#");
                 var video = product.video;
                 var image1 = product.image1;
                 var image2 = product.image2;
@@ -103,6 +103,8 @@ class UI {
                       <li><strong>Category</strong>: ${category}</li>
                       <li><strong>Duration</strong>: ${duration}</li>
                       <li><strong>Project date</strong>: ${projectDate}</li>
+                      <li><strong>Competition</strong>: ${competition}</li>
+                      <li><strong>Technology</strong>: ${technology}</li>
                       <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
                     </ul>
                   </div>
