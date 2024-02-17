@@ -120,9 +120,10 @@ class AchievementsUI {
             </div>
             </div>
           <div class="d-flex justify-content-between align-items-center pt-2">
-            <a class="btn btn-sm btn-outline-secondary" href="achievement-details.html?achievement=${name}">View</a>
+          
             <small class="text-body-secondary"><span class="badge rounded-pill text-bg-light">${projectDate}</span>
             </small> 
+            <a class="btn btn-sm btn-outline-secondary" href="achievement-details.html?achievement=${name}">View</a>
           </div>
         </div>
       </div>

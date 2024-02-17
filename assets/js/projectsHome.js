@@ -74,8 +74,9 @@ class UI {
         <img src="assets/img/project/${image1}.jpeg" class="img-fluid" alt="" />
       </div>
           <div class="d-flex justify-content-between align-items-center pt-2 m-2">
+          <h4 class="text-center pt-2">${name}</h4>
             <a class="btn btn-sm btn-outline-secondary" href="portfolio-details.html?project=${name}">View</a>
-            <h4 class="text-center pt-2">${name}</h4>
+            
           </div>
     </div>`;
     });
