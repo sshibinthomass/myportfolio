@@ -1,19 +1,19 @@
-const allParticipationsDOM = document.querySelector(".participation");
+const allPlantsDOM = document.querySelector(".participation");
 
 const urlParams = new URLSearchParams(window.location.search);
 const participation = urlParams.get("participation");
 
 //Participation
-class Participations {
-  async getParticipations() {
+class Products {
+  async getProducts() {
     try {
       let result = await fetch("participation.json");
 
       let data = await result.json();
 
-      let participations = data.items;
+      let products = data.items;
 
-      participations = participations.map((item) => {
+      products = products.map((item) => {
         const {
           name,
           competition,
@@ -55,7 +55,7 @@ class Participations {
           image5,
         };
       });
-      return participations;
+      return products;
     } catch (error) {
       console.log(error);
     }
@@ -63,12 +63,14 @@ class Participations {
 }
 
 class ParticipationsUI {
-  filter(participations) {
+  filter(products) {
     let result = ``;
     console.log(participation);
-    participations.forEach((product) => {
+    console.log(products);
+    products.forEach((product) => {
+      console.log(participation == product.name);
       if (participation == product.name) {
-        console.log(participation.name);
+        //console.log(participation.name);
         var id = product.id;
         var name = product.name;
         var competition = product.competition;
@@ -89,6 +91,7 @@ class ParticipationsUI {
         var image3 = product.image3;
         var image4 = product.image4;
         var image5 = product.image5;
+        var video = product.video;
         result += `
       <section id="breadcrumbs" class="breadcrumbs">
           <div class="container">
@@ -128,8 +131,8 @@ class ParticipationsUI {
             &emsp;${category}
             </p>
           </div>
-               <iframe width="560" height="315" src="${category}"frameborder="0" allowfullscreen>
-               </iframe>
+          <iframe width="560" height="315" src="${video}"frameborder="0" allowfullscreen>
+          </iframe>
         </div>
       </div>
     </section>
@@ -139,7 +142,7 @@ class ParticipationsUI {
     });
     console.log(result);
     try {
-      allParticipationsDOM.innerHTML = result;
+      allPlantsDOM.innerHTML = result;
     } catch (e) {
       console.log("Error = " + e);
     }
@@ -148,11 +151,11 @@ class ParticipationsUI {
 
 //Filter
 function filter() {
-  const participations = new Participations();
+  const products = new Products();
   //console.log(participations);
   const ui = new ParticipationsUI();
-  participations.getParticipations().then((participations) => {
-    ui.filter(participations);
+  products.getProducts().then((products) => {
+    ui.filter(products);
   });
 }
 filter();

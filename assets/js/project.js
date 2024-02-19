@@ -1,4 +1,3 @@
-showProduct = document.querySelector(".show-product");
 const allPlantsDOM = document.querySelector(".portfolio");
 
 const urlParams = new URLSearchParams(window.location.search);
