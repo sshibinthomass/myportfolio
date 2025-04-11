@@ -80,6 +80,25 @@ body.dark-mode .portfolio .portfolio-wrap::before {
   background: rgba(0, 0, 0, 0.5);
 }
 
+body.dark-mode .portfolio-item h4 {
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .portfolio .portfolio-wrap {
+  background: var(--dark-bg-secondary);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+body.dark-mode .portfolio .portfolio-links a {
+  color: #fff;
+  background: rgba(20, 157, 221, 0.75);
+}
+
+body.dark-mode .portfolio .portfolio-links a:hover {
+  background: var(--dark-accent);
+}
+
 /* Portfolio details */
 body.dark-mode .portfolio-details .portfolio-info {
   background: var(--dark-bg-secondary);
@@ -284,5 +303,23 @@ body.dark-mode .page h5 {
 
   body.dark-mode .section-title h2 {
     font-size: 28px;
+  }
+
+  /* Mobile optimizations for projects section */
+  body.dark-mode .portfolio-item {
+    margin-bottom: 20px;
+  }
+
+  body.dark-mode .portfolio .portfolio-wrap {
+    margin-bottom: 10px;
+  }
+
+  body.dark-mode .portfolio-item h4 {
+    font-size: 16px;
+  }
+
+  body.dark-mode .portfolio .btn-outline-secondary {
+    padding: 3px 8px;
+    font-size: 12px;
   }
 }
