@@ -194,6 +194,22 @@ body.dark-mode .theme-toggle {
   background-color: #ffbb2c;
 }
 
+/* Mobile optimization for theme toggle */
+@media (max-width: 768px) {
+  .theme-toggle {
+    right: 65px;
+  }
+}
+
+@media (max-width: 480px) {
+  .theme-toggle {
+    right: 60px;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+  }
+}
+
 /* Cards and boxes */
 body.dark-mode .card {
   background-color: var(--dark-bg-secondary);
@@ -240,4 +256,33 @@ body.dark-mode .page h1,
 body.dark-mode .page h2,
 body.dark-mode .page h5 {
   color: var(--dark-text-primary);
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  body.dark-mode #header {
+    background-color: var(--dark-bg-primary);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+
+  body.dark-mode .mobile-nav-toggle {
+    background-color: var(--dark-accent);
+  }
+
+  body.dark-mode .mobile-nav-active .mobile-nav-toggle {
+    background-color: var(--dark-accent-hover);
+  }
+
+  body.dark-mode .portfolio #portfolio-flters {
+    padding: 5px 10px;
+  }
+
+  body.dark-mode .portfolio #portfolio-flters li {
+    padding: 6px 8px;
+    font-size: 13px;
+  }
+
+  body.dark-mode .section-title h2 {
+    font-size: 28px;
+  }
 }

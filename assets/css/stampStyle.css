@@ -15,8 +15,6 @@
 body {
   width: 100%;
   height: 100vh;
-  min-width: 900px;
-  min-height: 700px;
   background: #fbecb4;
   position: relative;
 }
@@ -30,6 +28,75 @@ body.dark-mode {
   height: 654.5px;
   transform: translate(-50%, -50%) rotatex(10deg) rotatey(-10deg);
   transform-style: preserve-3d;
+}
+
+/* Mobile responsiveness for book */
+@media (max-width: 992px) {
+  .book {
+    width: 700px;
+    height: 540px;
+  }
+
+  .page {
+    width: 350px;
+    height: 540px;
+  }
+}
+
+@media (max-width: 768px) {
+  .book {
+    width: 500px;
+    height: 400px;
+    transform: translate(-50%, -50%) rotatex(5deg) rotatey(-5deg);
+  }
+
+  .page {
+    width: 250px;
+    height: 400px;
+  }
+
+  .cover-front:nth-child(1) h1 {
+    font-size: 32px;
+    margin-top: 30px;
+  }
+
+  .cover-front:nth-child(1) h2 {
+    font-size: 20px;
+  }
+
+  .cover-front:nth-child(1) .hat {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 520px) {
+  .book {
+    width: 300px;
+    height: 240px;
+    transform: translate(-50%, -50%) rotatex(5deg) rotatey(-5deg);
+  }
+
+  .page {
+    width: 150px;
+    height: 240px;
+  }
+
+  .cover-front:nth-child(1) h1 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .cover-front:nth-child(1) h2 {
+    font-size: 14px;
+  }
+
+  .cover-front:nth-child(1) h5 {
+    font-size: 10px;
+  }
+
+  .cover-front:nth-child(1) .hat {
+    font-size: 40px;
+  }
 }
 
 .page {
