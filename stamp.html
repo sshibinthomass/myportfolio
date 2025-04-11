@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
-  <meta charset="utf-8" />
+    <meta charset="utf-8" />
     <title>CodePen - 3d book (November #CodePenChallenge)</title>
     <link
       rel="stylesheet"
@@ -10,28 +9,41 @@
     />
     <link href="assets/css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/stampStyle.css" />
-      <!-- Google Fonts -->
-  <link
-  href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-  rel="stylesheet" />
+    <!-- Dark Mode CSS -->
+    <link href="assets/css/dark-mode.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-<!-- Vendor CSS Files -->
-<link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-
-
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
   </head>
 
   <body>
-  
+    <!-- ======= Theme toggle button ======= -->
+    <button id="theme-toggle" class="theme-toggle">
+      <i id="theme-toggle-icon" class="bi bi-moon"></i>
+    </button>
 
     <div class="book">
       <div class="page cover-front" onclick="movePage(this, 1)">
-          <h1 >Stamps Collection</h1>
+        <h1>Stamps Collection</h1>
         <div class="hat">
           <i class="fa fa-stamp fa-beat fa-2xl" style="color: #dbe3f0"></i>
         </div>
@@ -40,106 +52,46 @@
       </div>
       <div class="page cover-front" onclick="movePage(this, 2)"></div>
       <div class="page text-page" onclick="movePage(this, 3)">
-        <img
-          src="assets/img/stamp/1.jpg"
-          alt=""
-          width="400"
-          height="600"
-        />
+        <img src="assets/img/stamp/1.jpg" alt="" width="400" height="600" />
       </div>
       <div class="page text-page" onclick="movePage(this, 4)">
-        <img
-          src="assets/img/stamp/2.jpg"
-          alt=""
-          width="390"
-          height="600"
-        />
+        <img src="assets/img/stamp/2.jpg" alt="" width="390" height="600" />
       </div>
       <div class="page text-page" onclick="movePage(this, 5)">
-        <img
-          src="assets/img/stamp/3.jpg"
-          alt=""
-          width="400"
-          height="600"
-        />
+        <img src="assets/img/stamp/3.jpg" alt="" width="400" height="600" />
       </div>
       <div class="page text-page" onclick="movePage(this, 6)">
-        <img
-          src="assets/img/stamp/4.jpg"
-          alt=""
-          width="390"
-          height="600"
-        />
+        <img src="assets/img/stamp/4.jpg" alt="" width="390" height="600" />
       </div>
       <div class="page text-page" onclick="movePage(this, 7)">
-        <img
-          src="assets/img/stamp/5.jpg"
-          alt=""
-          width="400"
-          height="600"
-        />
+        <img src="assets/img/stamp/5.jpg" alt="" width="400" height="600" />
       </div>
       <div class="page text-page" onclick="movePage(this, 8)">
-        <img
-          src="assets/img/stamp/6.jpg"
-          alt=""
-          width="390"
-          height="600"
-        />
+        <img src="assets/img/stamp/6.jpg" alt="" width="390" height="600" />
       </div>
       <div class="page text-page" onclick="movePage(this, 9)">
-        <img
-          src="assets/img/stamp/7.jpg"
-          alt=""
-          width="400"
-          height="600"
-        />
+        <img src="assets/img/stamp/7.jpg" alt="" width="400" height="600" />
       </div>
       <div class="page text-page" onclick="movePage(this, 10)">
-        <img
-          src="assets/img/stamp/8.jpg"
-          alt=""
-          width="390"
-          height="600"
-        />
+        <img src="assets/img/stamp/8.jpg" alt="" width="390" height="600" />
       </div>
       <div class="page text-page" onclick="movePage(this, 11)">
-        <img
-          src="assets/img/stamp/9.jpg"
-          alt=""
-          width="400"
-          height="600"
-        />
+        <img src="assets/img/stamp/9.jpg" alt="" width="400" height="600" />
       </div>
       <div class="page text-page" onclick="movePage(this, 12)">
-        <img
-          src="assets/img/stamp/10.jpg"
-          alt=""
-          width="390"
-          height="600"
-        />
+        <img src="assets/img/stamp/10.jpg" alt="" width="390" height="600" />
       </div>
       <div class="page text-page" onclick="movePage(this, 13)">
-        <img
-          src="assets/img/stamp/11.jpg"
-          alt=""
-          width="400"
-          height="600"
-        />
+        <img src="assets/img/stamp/11.jpg" alt="" width="400" height="600" />
       </div>
       <div class="page text-page" onclick="movePage(this, 14)">
-        <img
-          src="assets/img/stamp/12.jpg"
-          alt=""
-          width="390"
-          height="600"
-        />
+        <img src="assets/img/stamp/12.jpg" alt="" width="390" height="600" />
       </div>
-      <div class="page">
-
-      </div>
+      <div class="page"></div>
     </div>
     <!-- partial -->
     <script src="assets/js/stampScript.js"></script>
+    <!-- Dark Mode JS -->
+    <script src="assets/js/dark-mode.js"></script>
   </body>
 </html>

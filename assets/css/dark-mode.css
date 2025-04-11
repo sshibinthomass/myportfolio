@@ -1,0 +1,243 @@
+/**
+* Dark Mode Styles for Portfolio Site
+*/
+
+:root {
+  /* Dark mode color variables */
+  --dark-bg-primary: #121212;
+  --dark-bg-secondary: #1e1e1e;
+  --dark-bg-tertiary: #2d2d2d;
+  --dark-text-primary: #e0e0e0;
+  --dark-text-secondary: #b0b0b0;
+  --dark-accent: #149ddd;
+  --dark-accent-hover: #37b3ed;
+  --dark-border: #444444;
+  --dark-card-bg: #252525;
+  --dark-section-bg: #1a1a1a;
+}
+
+/* Apply dark mode styles when .dark-mode class is present on body */
+body.dark-mode {
+  background-color: var(--dark-bg-primary);
+  color: var(--dark-text-primary);
+}
+
+/* General text colors */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode p {
+  color: var(--dark-text-primary);
+}
+
+/* Section backgrounds */
+body.dark-mode .section-bg {
+  background: var(--dark-bg-secondary);
+}
+
+/* Section titles */
+body.dark-mode .section-title h2 {
+  color: var(--dark-text-primary);
+}
+
+/* About section */
+body.dark-mode .about .content h3 {
+  color: var(--dark-text-primary);
+}
+
+/* Resume section */
+body.dark-mode .resume .resume-title {
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .resume .resume-item h4 {
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .resume .resume-item h5 {
+  background: var(--dark-bg-tertiary);
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .resume .resume-item::before {
+  background: var(--dark-bg-tertiary);
+  border: 2px solid var(--dark-accent);
+}
+
+/* Portfolio/Projects section */
+body.dark-mode .portfolio #portfolio-flters {
+  background: var(--dark-bg-tertiary);
+}
+
+body.dark-mode .portfolio #portfolio-flters li {
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .portfolio .portfolio-wrap::before {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Portfolio details */
+body.dark-mode .portfolio-details .portfolio-info {
+  background: var(--dark-bg-secondary);
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .portfolio-details .portfolio-info h3 {
+  border-bottom: 1px solid var(--dark-border);
+}
+
+/* Services/Publications section */
+body.dark-mode .services .title a {
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .services .icon-box {
+  background: var(--dark-bg-secondary);
+}
+
+/* Contact section */
+body.dark-mode .contact .info {
+  background: var(--dark-bg-secondary);
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .contact .info h4 {
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .contact .info p {
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .contact .php-email-form {
+  background: var(--dark-bg-secondary);
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Facts section */
+body.dark-mode .facts .count-box span {
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .facts .count-box p {
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .facts .count-box a {
+  color: var(--dark-text-secondary);
+}
+
+/* Skills section */
+body.dark-mode .skills .progress .skill {
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .skills .progress-bar-wrap {
+  background: var(--dark-bg-tertiary);
+}
+
+body.dark-mode .skills .icon-box {
+  background: rgba(45, 45, 45, 0.5);
+  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.2);
+}
+
+body.dark-mode .skills .icon-box h4 a {
+  color: var(--dark-text-primary);
+}
+
+/* Testimonials section */
+body.dark-mode .testimonials .testimonial-item h3 {
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .testimonials .testimonial-item p {
+  background: var(--dark-bg-secondary);
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .testimonials .testimonial-item p::after {
+  border-top: 20px solid var(--dark-bg-secondary);
+}
+
+/* Breadcrumbs */
+body.dark-mode .breadcrumbs {
+  background: var(--dark-bg-secondary);
+}
+
+/* Theme toggle button */
+.theme-toggle {
+  position: fixed;
+  right: 70px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  font-size: 24px;
+  transition: all 0.4s;
+  outline: none !important;
+  background-color: #149ddd;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+body.dark-mode .theme-toggle {
+  background-color: #ffbb2c;
+}
+
+/* Cards and boxes */
+body.dark-mode .card {
+  background-color: var(--dark-bg-secondary);
+  border-color: var(--dark-border);
+}
+
+body.dark-mode .card-body {
+  background-color: var(--dark-bg-secondary);
+}
+
+body.dark-mode .card-footer {
+  background-color: var(--dark-bg-tertiary);
+  border-top: 1px solid var(--dark-border);
+}
+
+body.dark-mode .btn-outline-secondary {
+  color: var(--dark-text-primary);
+  border-color: var(--dark-text-secondary);
+}
+
+body.dark-mode .btn-outline-secondary:hover {
+  background-color: var(--dark-accent);
+  color: #fff;
+  border-color: var(--dark-accent);
+}
+
+/* Badges */
+body.dark-mode .badge.text-bg-light {
+  background-color: var(--dark-bg-tertiary) !important;
+  color: var(--dark-text-primary) !important;
+}
+
+/* Stamp page styles */
+body.dark-mode .book {
+  background-color: var(--dark-bg-primary);
+}
+
+body.dark-mode .page {
+  background-color: var(--dark-bg-secondary);
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .page h1,
+body.dark-mode .page h2,
+body.dark-mode .page h5 {
+  color: var(--dark-text-primary);
+}
