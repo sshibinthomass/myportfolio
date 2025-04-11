@@ -1,0 +1,171 @@
+/**
+* Uniform Spacing and Layout CSS
+* This file standardizes spacing across the entire website
+*/
+
+:root {
+  /* Spacing Variables */
+  --space-xs: 0.25rem;   /* 4px */
+  --space-sm: 0.5rem;    /* 8px */
+  --space-md: 1rem;      /* 16px */
+  --space-lg: 1.5rem;    /* 24px */
+  --space-xl: 2rem;      /* 32px */
+  --space-xxl: 3rem;     /* 48px */
+  
+  /* Section Spacing */
+  --section-padding-y: var(--space-xxl);
+  --section-title-margin-bottom: var(--space-xl);
+  
+  /* Card Spacing */
+  --card-padding: var(--space-md);
+  --card-margin-bottom: var(--space-lg);
+  --card-content-spacing: var(--space-md);
+  
+  /* Element Spacing */
+  --element-margin-bottom: var(--space-md);
+  --list-item-margin: var(--space-sm);
+  
+  /* Grid Spacing */
+  --grid-gap: var(--space-md);
+  --grid-item-margin: var(--space-md);
+}
+
+/* Apply consistent section spacing */
+section {
+  padding: var(--section-padding-y) 0;
+  margin-bottom: 0;
+}
+
+/* Standardize section titles */
+.section-title, .skills-title {
+  margin-bottom: var(--section-title-margin-bottom);
+  text-align: center;
+}
+
+.section-title h2, .skills-title h2 {
+  display: inline-block;
+  margin-bottom: var(--space-md);
+}
+
+/* Standardize card spacing */
+.icon-box, .portfolio-wrap, .testimonial-item, .contact .info {
+  padding: var(--card-padding);
+  margin-bottom: var(--card-margin-bottom);
+  height: 100%;
+}
+
+/* Standardize grid spacing */
+.row {
+  margin-bottom: var(--space-lg);
+}
+
+.row:last-child {
+  margin-bottom: 0;
+}
+
+/* Remove extra spacing between grid items */
+.row > [class*="col-"] {
+  margin-bottom: var(--grid-item-margin);
+}
+
+/* Standardize list spacing */
+ul {
+  padding-left: var(--space-lg);
+}
+
+ul li {
+  margin-bottom: var(--list-item-margin);
+}
+
+ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* Standardize paragraph spacing */
+p {
+  margin-bottom: var(--element-margin-bottom);
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* Standardize heading spacing */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: var(--space-md);
+}
+
+/* Standardize skills section */
+.skills .icon-box {
+  padding: var(--card-padding);
+  margin-bottom: var(--card-margin-bottom);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.skills .icon {
+  margin-bottom: var(--space-md);
+}
+
+.skills .icon-box h4 {
+  margin-top: var(--space-md);
+  margin-bottom: 0;
+}
+
+/* Standardize portfolio items */
+.portfolio-item {
+  margin-bottom: var(--card-margin-bottom);
+}
+
+.portfolio-wrap {
+  margin-bottom: var(--space-sm);
+}
+
+/* Standardize achievements and participations */
+.all-achievements, .all-participations {
+  gap: var(--grid-gap);
+}
+
+/* Standardize contact info */
+.contact .info {
+  padding: var(--card-padding);
+}
+
+.contact .info i {
+  margin-bottom: var(--space-sm);
+}
+
+.contact .info h4 {
+  margin-bottom: var(--space-sm);
+}
+
+/* Standardize buttons */
+.btn {
+  padding: var(--space-sm) var(--space-md);
+  margin: var(--space-sm);
+}
+
+/* Standardize mobile spacing */
+@media (max-width: 768px) {
+  :root {
+    --section-padding-y: var(--space-xl);
+    --section-title-margin-bottom: var(--space-lg);
+    --card-padding: var(--space-sm);
+    --card-margin-bottom: var(--space-md);
+  }
+  
+  .skills .icon-box {
+    padding: var(--space-sm);
+  }
+  
+  .skills .icon {
+    margin-bottom: var(--space-sm);
+  }
+  
+  .skills .icon-box h4 {
+    margin-top: var(--space-sm);
+  }
+}

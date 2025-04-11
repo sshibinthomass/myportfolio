@@ -322,4 +322,18 @@ body.dark-mode .page h5 {
     padding: 3px 8px;
     font-size: 12px;
   }
+
+  /* Mobile optimizations for skills section */
+  body.dark-mode .skills .icon-box {
+    padding: 10px;
+  }
+
+  body.dark-mode .skills .icon-box .icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  body.dark-mode .skills .icon-box h4 {
+    font-size: 14px;
+  }
 }
