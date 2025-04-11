@@ -129,6 +129,33 @@ h1, h2, h3, h4, h5, h6 {
   padding: var(--space-sm);
 }
 
+#portfolio-flters {
+  padding: 0;
+  margin: 0 0 var(--space-xl) 0;
+  list-style: none;
+  text-align: center;
+}
+
+#portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: var(--space-xs) var(--space-sm);
+  margin: 0 var(--space-xs) var(--space-sm) var(--space-xs);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #272829;
+  background: #f5f8fd;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+#portfolio-flters li:hover, #portfolio-flters li.filter-active {
+  background: #149ddd;
+  color: #fff;
+}
+
 .all-certifications .portfolio-wrap {
   height: 100%;
   overflow: hidden;

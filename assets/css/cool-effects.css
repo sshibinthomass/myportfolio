@@ -337,6 +337,59 @@ body.dark-mode::-webkit-scrollbar-track {
   border-color: transparent;
 }
 
+/* Certification Page Effects */
+.all-certifications .portfolio-wrap {
+  transition: all 0.4s ease;
+  box-shadow: var(--glass-shadow);
+}
+
+.all-certifications .portfolio-wrap:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--glass-shadow), 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.all-certifications .portfolio-links a {
+  display: inline-block;
+  font-size: 24px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.all-certifications .portfolio-links a:hover {
+  color: var(--dark-accent);
+  transform: scale(1.2);
+}
+
+/* Filter buttons animation */
+#portfolio-flters li {
+  transition: all 0.3s ease;
+}
+
+#portfolio-flters li:hover {
+  transform: translateY(-2px);
+}
+
+#portfolio-flters li.filter-active {
+  position: relative;
+  overflow: hidden;
+}
+
+#portfolio-flters li.filter-active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--gradient-accent);
+  animation: slideIn 0.3s ease forwards;
+}
+
+@keyframes slideIn {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
 /* Publication Section Effects */
 #publication .icon-box {
   transition: all 0.4s ease;

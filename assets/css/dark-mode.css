@@ -109,6 +109,31 @@ body.dark-mode .portfolio-details .portfolio-info h3 {
   border-bottom: 1px solid var(--dark-border);
 }
 
+/* Certification page */
+body.dark-mode .all-certifications .portfolio-wrap {
+  background: var(--dark-bg-secondary);
+  border-color: var(--dark-border);
+}
+
+body.dark-mode .all-certifications .portfolio-links {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+body.dark-mode .all-certifications .portfolio-links a {
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode #portfolio-flters li {
+  color: var(--dark-text-primary);
+  background: var(--dark-bg-secondary);
+}
+
+body.dark-mode #portfolio-flters li:hover,
+body.dark-mode #portfolio-flters li.filter-active {
+  background: var(--dark-accent);
+  color: #fff;
+}
+
 /* Services/Publications section */
 body.dark-mode .services .title a {
   color: var(--dark-text-primary);

@@ -1,9 +1,17 @@
 const allProjectsDOM = document.querySelector(".all-certifications");
 
+// Check if the element exists
+if (!allProjectsDOM) {
+  console.error(
+    'Error: Could not find element with class ".all-certifications"'
+  );
+}
+
 //Products
 class Products {
   async getProducts() {
     try {
+      console.log("Fetching certification data...");
       let result = await fetch("assets/json/certification.json");
 
       let data = await result.json();
@@ -21,9 +29,14 @@ class Products {
           heading,
         };
       });
+      console.log(
+        "Certification data loaded successfully:",
+        products.length,
+        "items"
+      );
       return products;
     } catch (error) {
-      console.log(error);
+      console.error("Error loading certification data:", error);
     }
   }
 }
