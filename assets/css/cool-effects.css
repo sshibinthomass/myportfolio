@@ -306,13 +306,90 @@ body.dark-mode::-webkit-scrollbar-track {
   50% { border-color: #149ddd }
 }
 
+/* Achievement and Participation Section Effects */
+#acheivements .card, #participations .card {
+  transition: all 0.4s ease;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+#acheivements .card:hover, #participations .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#acheivements .card img, #participations .card img {
+  transition: all 0.5s ease;
+}
+
+#acheivements .card:hover img, #participations .card:hover img {
+  transform: scale(1.05);
+}
+
+#acheivements .btn, #participations .btn {
+  transition: all 0.3s ease;
+}
+
+#acheivements .btn:hover, #participations .btn:hover {
+  background: var(--gradient-accent);
+  color: white;
+  border-color: transparent;
+}
+
+/* Publication Section Effects */
+#publication .icon-box {
+  transition: all 0.4s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+#publication .icon-box::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(20, 157, 221, 0.1);
+  z-index: -1;
+  transform: scale(0);
+  transition: all 0.5s ease;
+}
+
+#publication .icon-box:hover::before {
+  transform: scale(10);
+}
+
+#publication .icon-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#publication .icon {
+  transition: all 0.3s ease;
+}
+
+#publication .icon-box:hover .icon {
+  transform: scale(1.1);
+}
+
+#publication .icon i {
+  transition: all 0.3s ease;
+}
+
+#publication .icon-box:hover .icon i {
+  transform: rotate(10deg);
+}
+
 /* Mobile Optimizations */
 @media (max-width: 768px) {
   .glass-card {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
   }
-  
+
   .modern-profile::before {
     animation: rotate 6s linear infinite;
   }

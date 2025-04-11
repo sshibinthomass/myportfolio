@@ -11,20 +11,20 @@
   --space-lg: 1.5rem;    /* 24px */
   --space-xl: 2rem;      /* 32px */
   --space-xxl: 3rem;     /* 48px */
-  
+
   /* Section Spacing */
   --section-padding-y: var(--space-xxl);
   --section-title-margin-bottom: var(--space-xl);
-  
+
   /* Card Spacing */
   --card-padding: var(--space-md);
   --card-margin-bottom: var(--space-lg);
   --card-content-spacing: var(--space-md);
-  
+
   /* Element Spacing */
   --element-margin-bottom: var(--space-md);
   --list-item-margin: var(--space-sm);
-  
+
   /* Grid Spacing */
   --grid-gap: var(--space-md);
   --grid-item-margin: var(--space-md);
@@ -124,9 +124,72 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: var(--space-sm);
 }
 
+/* Certification page styles */
+.all-certifications .portfolio-item {
+  padding: var(--space-sm);
+}
+
+.all-certifications .portfolio-wrap {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.all-certifications .portfolio-wrap img {
+  height: 200px;
+  object-fit: contain;
+  transition: all 0.3s ease;
+}
+
+.all-certifications .portfolio-wrap:hover img {
+  transform: scale(1.05);
+}
+
+.all-certifications .portfolio-links {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  transition: all 0.3s ease;
+  background: rgba(0, 0, 0, 0.6);
+  padding: var(--space-sm);
+  text-align: center;
+}
+
+.all-certifications .portfolio-wrap:hover .portfolio-links {
+  opacity: 1;
+}
+
 /* Standardize achievements and participations */
 .all-achievements, .all-participations {
   gap: var(--grid-gap);
+}
+
+#acheivements .card, #participations .card {
+  height: 100%;
+  margin-bottom: 0;
+}
+
+#acheivements .card-body, #participations .card-body {
+  padding: var(--card-padding);
+  display: flex;
+  flex-direction: column;
+}
+
+#acheivements .container, #participations .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#acheivements .card img, #participations .card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+#acheivements .btn, #participations .btn {
+  margin-left: auto;
 }
 
 /* Standardize contact info */
@@ -140,6 +203,40 @@ h1, h2, h3, h4, h5, h6 {
 
 .contact .info h4 {
   margin-bottom: var(--space-sm);
+}
+
+/* Publication section styling */
+#publication .icon-box {
+  text-align: center;
+  padding: var(--card-padding);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#publication .icon {
+  margin-bottom: var(--space-md);
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(20, 157, 221, 0.1);
+}
+
+#publication .icon i {
+  font-size: 32px;
+  color: #149ddd;
+}
+
+#publication h4 {
+  margin: var(--space-sm) 0;
+}
+
+#publication p {
+  margin-top: auto;
 }
 
 /* Standardize buttons */
@@ -156,15 +253,15 @@ h1, h2, h3, h4, h5, h6 {
     --card-padding: var(--space-sm);
     --card-margin-bottom: var(--space-md);
   }
-  
+
   .skills .icon-box {
     padding: var(--space-sm);
   }
-  
+
   .skills .icon {
     margin-bottom: var(--space-sm);
   }
-  
+
   .skills .icon-box h4 {
     margin-top: var(--space-sm);
   }

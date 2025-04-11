@@ -118,6 +118,22 @@ body.dark-mode .services .icon-box {
   background: var(--dark-bg-secondary);
 }
 
+body.dark-mode #publication .icon {
+  background: rgba(20, 157, 221, 0.2);
+}
+
+body.dark-mode #publication .icon i {
+  color: var(--dark-accent);
+}
+
+body.dark-mode #publication h4 a {
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode #publication p {
+  color: var(--dark-text-secondary);
+}
+
 /* Contact section */
 body.dark-mode .contact .info {
   background: var(--dark-bg-secondary);
@@ -259,6 +275,32 @@ body.dark-mode .btn-outline-secondary:hover {
 body.dark-mode .badge.text-bg-light {
   background-color: var(--dark-bg-tertiary) !important;
   color: var(--dark-text-primary) !important;
+}
+
+/* Achievement and Participation sections */
+body.dark-mode #acheivements .card,
+body.dark-mode #participations .card {
+  background-color: var(--dark-bg-secondary);
+  border-color: var(--dark-border);
+}
+
+body.dark-mode #acheivements .card-body,
+body.dark-mode #participations .card-body {
+  background-color: var(--dark-bg-secondary);
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode #acheivements .btn-outline-secondary,
+body.dark-mode #participations .btn-outline-secondary {
+  color: var(--dark-text-primary);
+  border-color: var(--dark-border);
+}
+
+body.dark-mode #acheivements .btn-outline-secondary:hover,
+body.dark-mode #participations .btn-outline-secondary:hover {
+  background-color: var(--dark-accent);
+  border-color: var(--dark-accent);
+  color: #fff;
 }
 
 /* Stamp page styles */

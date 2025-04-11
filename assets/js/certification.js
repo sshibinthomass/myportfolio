@@ -11,18 +11,14 @@ class Products {
       let products = data.items;
 
       products = products.map((item) => {
-        const {
-          image,
-          category,
-          heading
-        } = item.fields;
+        const { image, category, heading } = item.fields;
         const { id } = item.sys;
 
         return {
           id,
           image,
           category,
-          heading
+          heading,
         };
       });
       return products;
@@ -41,8 +37,8 @@ class UI {
       var category = certificate.category;
       var heading = certificate.heading;
       result += `
-      <div class="col-lg-4 col-md-6 portfolio-item filter-${category}">
-      <div class="portfolio-wrap">
+      <div class="col-lg-4 col-md-6 mb-4 portfolio-item filter-${category}">
+      <div class="portfolio-wrap glass-card">
         <img src="assets/img/certifications/${image}.jpg" class="img-fluid" alt="">
         <div class="portfolio-links">
           <a href="assets/img/certifications/${image}.jpg" data-gallery="portfolioGallery" target="_blank" class="portfolio-lightbox" title="${category}"><i class="bx bx-plus"></i></a>
@@ -52,6 +48,38 @@ class UI {
     });
     try {
       allProjectsDOM.innerHTML = result;
+
+      // Initialize Isotope after loading certifications
+      setTimeout(() => {
+        const portfolioContainer = document.querySelector(
+          ".portfolio-container"
+        );
+        if (portfolioContainer && typeof Isotope !== "undefined") {
+          const portfolioIsotope = new Isotope(portfolioContainer, {
+            itemSelector: ".portfolio-item",
+          });
+
+          // Re-arrange items when portfolio filters are clicked
+          const portfolioFilters = document.querySelectorAll(
+            "#portfolio-flters li"
+          );
+          if (portfolioFilters) {
+            portfolioFilters.forEach((filter) => {
+              filter.addEventListener("click", function (e) {
+                e.preventDefault();
+                portfolioFilters.forEach(function (el) {
+                  el.classList.remove("filter-active");
+                });
+                this.classList.add("filter-active");
+
+                portfolioIsotope.arrange({
+                  filter: this.getAttribute("data-filter"),
+                });
+              });
+            });
+          }
+        }
+      }, 100);
     } catch (e) {
       console.log("Error = " + e);
     }
@@ -67,4 +95,4 @@ function filter() {
     ui.filter(products);
   });
 }
-filter();``
+filter();

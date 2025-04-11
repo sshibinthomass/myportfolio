@@ -28,7 +28,7 @@ class Participations {
           image2,
           image3,
           image4,
-          image5
+          image5,
         } = item.fields;
         const { id } = item.sys;
 
@@ -49,7 +49,7 @@ class Participations {
           image2,
           image3,
           image4,
-          image5
+          image5,
         };
       });
       return participations;
@@ -64,29 +64,29 @@ class ParticipationsUI {
     let result = ``;
     //console.log(project);
     participations.forEach((product) => {
-      var id=product.id;
-      var name=product.name;
-      var competition=product.competition;
-      var place=product.place;
-      var organizers=product.organizers;
-      var projectDate=product.projectDate;
-      var duration=product.duration;
-      var preparationTime=product.preparationTime;
-      var category=product.category;
-      var location=product.location;
-      var team=product.team;
-      var prize=product.prize;
-      var problemStatement=product.problemStatement;
-      var aboutCompetition=product.aboutCompetition;
-      var solution=product.solution;
-      var image1=product.image1;
-      var image2=product.image2;
-      var image3=product.image3;
-      var image4=product.image4;
-      var image5=product.image5;
+      var id = product.id;
+      var name = product.name;
+      var competition = product.competition;
+      var place = product.place;
+      var organizers = product.organizers;
+      var projectDate = product.projectDate;
+      var duration = product.duration;
+      var preparationTime = product.preparationTime;
+      var category = product.category;
+      var location = product.location;
+      var team = product.team;
+      var prize = product.prize;
+      var problemStatement = product.problemStatement;
+      var aboutCompetition = product.aboutCompetition;
+      var solution = product.solution;
+      var image1 = product.image1;
+      var image2 = product.image2;
+      var image3 = product.image3;
+      var image4 = product.image4;
+      var image5 = product.image5;
       result += `
-      <div class="col">
-      <div class="card shadow-sm">
+      <div class="col-lg-4 col-md-6 mb-4">
+      <div class="card shadow-sm glass-card">
       <img src="assets/img/acheivements/${image1}.jpg" class="img-fluid" alt="" />
       <div class="card-body">
           <div class="container text-left">
@@ -109,7 +109,7 @@ class ParticipationsUI {
             </div>
           <div class="d-flex justify-content-between align-items-center pt-2">
           <small class="text-body-secondary"><span class="badge rounded-pill text-bg-light">${projectDate}</span>
-          </small> 
+          </small>
            <!-- <a class="btn btn-sm btn-outline-secondary" href="participation-details.html?participation=${name}">View</a>-->
 
           </div>
