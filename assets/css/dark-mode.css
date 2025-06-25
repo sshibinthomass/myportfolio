@@ -404,3 +404,50 @@ body.dark-mode .page h5 {
     font-size: 14px;
   }
 }
+
+/* Desktop Sidebar Dark Mode Styles */
+body.dark-mode #header {
+  background: var(--dark-bg-secondary);
+  color: var(--dark-text-primary);
+  box-shadow: 1px 0 0 var(--dark-border);
+}
+
+body.dark-mode #header .profile h1 a,
+body.dark-mode #header .profile h1 a:hover {
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode #header .profile .social-links a {
+  background: var(--dark-bg-tertiary);
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode #header .profile .social-links a:hover {
+  background: var(--dark-accent);
+  color: #fff;
+}
+
+body.dark-mode .nav-menu a,
+body.dark-mode .nav-menu a:focus {
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .nav-menu a i,
+body.dark-mode .nav-menu a:focus i {
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .nav-menu a:hover,
+body.dark-mode .nav-menu .active,
+body.dark-mode .nav-menu .active:focus,
+body.dark-mode .nav-menu li:hover > a {
+  color: var(--dark-text-primary);
+  background: var(--dark-bg-tertiary);
+}
+
+body.dark-mode .nav-menu a:hover i,
+body.dark-mode .nav-menu .active i,
+body.dark-mode .nav-menu .active:focus i,
+body.dark-mode .nav-menu li:hover > a i {
+  color: var(--dark-accent);
+}

@@ -110,15 +110,15 @@ class AchievementsUI {
         var image9 = product.image9;
         var image10 = product.image10;
         if (product.video == "Empty") {
-          var video =``;
+          var video = ``;
         } else {
-          var video =`<iframe width="560" height="315" src="${product.video}"frameborder="0" allowfullscreen></iframe>`;
-        };
+          var video = `<iframe width="560" height="315" src="${product.video}"frameborder="0" allowfullscreen></iframe>`;
+        }
         if (product.image2 == "Empty") {
           var certificate = product.image1;
         } else {
           var certificate = product.image2;
-        };
+        }
         if (
           achievement == "SIH" ||
           achievement == "IFA" ||
@@ -191,17 +191,7 @@ class AchievementsUI {
         </div>`;
         }
         result += `      
-        <section id="breadcrumbs" class="breadcrumbs">
-        <div class="container">
-            <div class="d-flex justify-content-between align-items-center">
-            <h2>${competition}</h2>
-            <ol>
-                <li><a href="index.html#acheivements">Home</a></li>
-                <li>${competition}</li>
-            </ol>
-            </div>
-        </div>
-    </section>
+
     <section id="portfolio-details" class="portfolio-details">
     <div class="container">
       <div class="row gy-4">

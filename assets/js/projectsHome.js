@@ -43,6 +43,7 @@ class Products {
           duration,
         };
       });
+      products = products.sort((a, b) => b.id - a.id);
       return products;
     } catch (error) {
       console.log("Error loading projects:", error);
@@ -78,18 +79,23 @@ class UI {
       var image3 = product.image3;
       var projectDate = product.projectDate;
       var duration = product.duration;
+
       //console.log(product);
       result += `
       <div class="col-lg-4 col-md-6 portfolio-item filter-${category}">
         <div class="portfolio-wrap m-2">
           <img src="assets/img/project/${image1}.jpeg" class="img-fluid" alt="${name}" />
           <div class="portfolio-links">
-            <a href="portfolio-details.html?project=${name}" title="More Details">${name}</a>
+            <a href="portfolio-details.html?project=${encodeURIComponent(
+              name
+            )}" title="More Details">${name}</a>
           </div>
         </div>
         <div class="d-flex justify-content-between align-items-center pt-2 m-2">
           <h4 class="text-center pt-2">${name}</h4>
-          <a class="btn btn-sm btn-outline-secondary" href="portfolio-details.html?project=${name}">View</a>
+          <a class="btn btn-sm btn-outline-secondary" href="portfolio-details.html?project=${encodeURIComponent(
+            name
+          )}">View</a>
         </div>
       </div>`;
     });

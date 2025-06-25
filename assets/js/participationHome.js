@@ -85,38 +85,19 @@ class ParticipationsUI {
       var image4 = product.image4;
       var image5 = product.image5;
       result += `
-      <div class="col-lg-4 col-md-6 mb-4">
-      <div class="card shadow-sm glass-card">
-      <img src="assets/img/acheivements/${image1}.jpg" class="img-fluid" alt="" />
-      <div class="card-body">
-          <div class="container text-left">
-            <div class="row">
-              <div class="col-4 p-0">
-                <b>Competition</b>
-              </div>
-              <div class="col-8 p-0">
-                :${competition}
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-4 p-0">
-                <b>Organizer</b>
-              </div>
-              <div class="col-8 p-0">
-                :${organizers}
-              </div>
-            </div>
-            </div>
-          <div class="d-flex justify-content-between align-items-center pt-2">
-          <small class="text-body-secondary"><span class="badge rounded-pill text-bg-light">${projectDate}</span>
-          </small>
-           <!-- <a class="btn btn-sm btn-outline-secondary" href="participation-details.html?participation=${name}">View</a>-->
-
+      <div class="col-lg-4 col-md-6 portfolio-item">
+        <div class="portfolio-wrap m-2">
+          <img src="assets/img/acheivements/${image1}.jpg" class="img-fluid" alt="${competition}" />
+          <div class="portfolio-links">
+            <span>${competition}</span>
           </div>
         </div>
-      </div>
-    </div>
-    `;
+        <div class="d-flex flex-column justify-content-between align-items-start pt-2 m-2">
+          <div><b>Competition:</b> ${competition}</div>
+          <div><b>Organizer:</b> ${organizers}</div>
+          <small class="text-body-secondary mt-2"><span class="badge rounded-pill text-bg-light">${projectDate}</span></small>
+        </div>
+      </div>`;
     });
     try {
       allParticipationsDOM.innerHTML = result;

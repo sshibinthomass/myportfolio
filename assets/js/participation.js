@@ -93,17 +93,6 @@ class ParticipationsUI {
         var image5 = product.image5;
         var video = product.video;
         result += `
-      <section id="breadcrumbs" class="breadcrumbs">
-          <div class="container">
-              <div class="d-flex justify-content-between align-items-center">
-              <h2>${name}</h2>
-              <ol>
-                  <li><a href="index.html#participations">Home</a></li>
-                  <li>${name}</li>
-              </ol>
-              </div>
-          </div>
-      </section>
       <section id="portfolio-details" class="portfolio-details">
       <div class="container">
         <div class="row gy-4">
