@@ -1,5 +1,5 @@
 /**
-* Dark Mode Styles for Portfolio Site
+* Dark Mode Styles for project Site
 */
 
 :root {
@@ -67,74 +67,74 @@ body.dark-mode .resume .resume-item::before {
   border: 2px solid var(--dark-accent);
 }
 
-/* Portfolio/Projects section */
-body.dark-mode .portfolio #portfolio-flters {
+/* project/Projects section */
+body.dark-mode .project #project-flters {
   background: var(--dark-bg-tertiary);
 }
 
-body.dark-mode .portfolio #portfolio-flters li {
+body.dark-mode .project #project-flters li {
   color: var(--dark-text-primary);
 }
 
-body.dark-mode .portfolio .portfolio-wrap::before {
+body.dark-mode .project .project-wrap::before {
   background: rgba(0, 0, 0, 0.5);
 }
 
-body.dark-mode .portfolio-item h4 {
+body.dark-mode .project-item h4 {
   color: var(--dark-text-primary);
 }
 
-body.dark-mode .portfolio .portfolio-wrap {
+body.dark-mode .project .project-wrap {
   background: var(--dark-bg-secondary);
   border-radius: 5px;
   overflow: hidden;
 }
 
-body.dark-mode .portfolio .portfolio-links a {
+body.dark-mode .project .project-links a {
   color: #fff;
   background: rgba(20, 157, 221, 0.75);
 }
 
-body.dark-mode .portfolio .portfolio-links a:hover {
+body.dark-mode .project .project-links a:hover {
   background: var(--dark-accent);
 }
 
-/* Portfolio details */
-body.dark-mode .portfolio-details .portfolio-info {
+/* project details */
+body.dark-mode .project-details .project-info {
   background: var(--dark-bg-secondary);
   box-shadow: 0px 0 30px rgba(0, 0, 0, 0.3);
 }
 
-body.dark-mode .portfolio-details .portfolio-info h3 {
+body.dark-mode .project-details .project-info h3 {
   border-bottom: 1px solid var(--dark-border);
 }
 
 /* Certification page */
-body.dark-mode .all-certifications .portfolio-wrap {
+body.dark-mode .all-certifications .project-wrap {
   background: var(--dark-bg-secondary);
   border-color: var(--dark-border);
 }
 
-body.dark-mode .all-certifications .portfolio-links {
+body.dark-mode .all-certifications .project-links {
   background: rgba(0, 0, 0, 0.8);
 }
 
-body.dark-mode .all-certifications .portfolio-links a {
+body.dark-mode .all-certifications .project-links a {
   color: var(--dark-text-primary);
 }
 
-body.dark-mode #portfolio-flters li {
+body.dark-mode #project-flters li {
   color: var(--dark-text-primary);
   background: var(--dark-bg-secondary);
 }
 
-body.dark-mode #portfolio-flters li:hover,
-body.dark-mode #portfolio-flters li.filter-active {
+body.dark-mode #project-flters li:hover,
+body.dark-mode #project-flters li.filter-active {
   background: var(--dark-accent);
   color: #fff;
 }
 
-/* Services/Publications section */
+/* Services/researchs section */
 body.dark-mode .services .title a {
   color: var(--dark-text-primary);
 }
@@ -143,19 +143,19 @@ body.dark-mode .services .icon-box {
   background: var(--dark-bg-secondary);
 }
 
-body.dark-mode #publication .icon {
+body.dark-mode #research .icon {
   background: rgba(20, 157, 221, 0.2);
 }
 
-body.dark-mode #publication .icon i {
+body.dark-mode #research .icon i {
   color: var(--dark-accent);
 }
 
-body.dark-mode #publication h4 a {
+body.dark-mode #research h4 a {
   color: var(--dark-text-primary);
 }
 
-body.dark-mode #publication p {
+body.dark-mode #research p {
   color: var(--dark-text-secondary);
 }
 
@@ -272,17 +272,17 @@ body.dark-mode .theme-toggle {
 
 /* Cards and boxes */
 body.dark-mode .card {
-  background-color: var(--dark-bg-secondary);
+  background: var(--dark-bg-secondary);
   border-color: var(--dark-border);
 }
 
 body.dark-mode .card-body {
-  background-color: var(--dark-bg-secondary);
+  color: var(--dark-text-primary);
 }
 
 body.dark-mode .card-footer {
-  background-color: var(--dark-bg-tertiary);
-  border-top: 1px solid var(--dark-border);
+  background: var(--dark-bg-tertiary);
+  border-color: var(--dark-border);
 }
 
 body.dark-mode .btn-outline-secondary {
@@ -359,11 +359,11 @@ body.dark-mode .page h5 {
     background-color: var(--dark-accent-hover);
   }
 
-  body.dark-mode .portfolio #portfolio-flters {
+  body.dark-mode .project #project-flters {
     padding: 5px 10px;
   }
 
-  body.dark-mode .portfolio #portfolio-flters li {
+  body.dark-mode .project #project-flters li {
     padding: 6px 8px;
     font-size: 13px;
   }
@@ -373,19 +373,19 @@ body.dark-mode .page h5 {
   }
 
   /* Mobile optimizations for projects section */
-  body.dark-mode .portfolio-item {
+  body.dark-mode .project-item {
     margin-bottom: 20px;
   }
 
-  body.dark-mode .portfolio .portfolio-wrap {
+  body.dark-mode .project .project-wrap {
     margin-bottom: 10px;
   }
 
-  body.dark-mode .portfolio-item h4 {
+  body.dark-mode .project-item h4 {
     font-size: 16px;
   }
 
-  body.dark-mode .portfolio .btn-outline-secondary {
+  body.dark-mode .project .btn-outline-secondary {
     padding: 3px 8px;
     font-size: 12px;
   }
@@ -450,4 +450,40 @@ body.dark-mode .nav-menu .active i,
 body.dark-mode .nav-menu .active:focus i,
 body.dark-mode .nav-menu li:hover > a i {
   color: var(--dark-accent);
+}
+
+/* Glass card dark mode styling */
+body.dark-mode .glass-card {
+  background: rgba(30, 30, 30, 0.8);
+  border: 1px solid rgba(68, 68, 68, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .glass-card:hover {
+  border-color: rgba(20, 157, 221, 0.5);
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.7);
+}
+
+body.dark-mode .glass-card .card-title {
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .glass-card .card-text {
+  color: var(--dark-text-secondary);
+}
+
+/* Participation toggle button dark mode */
+body.dark-mode .participation-toggle {
+  border-color: var(--dark-accent);
+  color: var(--dark-accent);
+  background: transparent;
+}
+
+body.dark-mode .participation-toggle:hover {
+  background: var(--dark-accent);
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .participation-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(20, 157, 221, 0.3);
 }

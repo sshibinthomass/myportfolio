@@ -82,18 +82,18 @@ class UI {
 
       //console.log(product);
       result += `
-      <div class="col-lg-4 col-md-6 portfolio-item filter-${category}">
-        <div class="portfolio-wrap m-2">
+      <div class="col-lg-4 col-md-6 project-item filter-${category}">
+        <div class="project-wrap m-2">
           <img src="assets/img/project/${image1}.jpeg" class="img-fluid" alt="${name}" />
-          <div class="portfolio-links">
-            <a href="portfolio-details.html?project=${encodeURIComponent(
+          <div class="project-links">
+            <a href="project-details.html?project=${encodeURIComponent(
               name
             )}" title="More Details">${name}</a>
           </div>
         </div>
         <div class="d-flex justify-content-between align-items-center pt-2 m-2">
           <h4 class="text-center pt-2">${name}</h4>
-          <a class="btn btn-sm btn-outline-secondary" href="portfolio-details.html?project=${encodeURIComponent(
+          <a class="btn btn-sm btn-outline-secondary" href="project-details.html?project=${encodeURIComponent(
             name
           )}">View</a>
         </div>
@@ -105,28 +105,25 @@ class UI {
 
         // Initialize Isotope after loading projects
         setTimeout(() => {
-          const portfolioContainer = document.querySelector(
-            ".portfolio-container"
-          );
-          if (portfolioContainer && typeof Isotope !== "undefined") {
-            const portfolioIsotope = new Isotope(portfolioContainer, {
-              itemSelector: ".portfolio-item",
+          const projectContainer = document.querySelector(".project-container");
+          if (projectContainer && typeof Isotope !== "undefined") {
+            const projectIsotope = new Isotope(projectContainer, {
+              itemSelector: ".project-item",
             });
 
-            // Re-arrange items when portfolio filters are clicked
-            const portfolioFilters = document.querySelectorAll(
-              "#portfolio-flters li"
-            );
-            if (portfolioFilters) {
-              portfolioFilters.forEach((filter) => {
+            // Re-arrange items when project filters are clicked
+            const projectFilters =
+              document.querySelectorAll("#project-flters li");
+            if (projectFilters) {
+              projectFilters.forEach((filter) => {
                 filter.addEventListener("click", function (e) {
                   e.preventDefault();
-                  portfolioFilters.forEach(function (el) {
+                  projectFilters.forEach(function (el) {
                     el.classList.remove("filter-active");
                   });
                   this.classList.add("filter-active");
 
-                  portfolioIsotope.arrange({
+                  projectIsotope.arrange({
                     filter: this.getAttribute("data-filter"),
                   });
                 });

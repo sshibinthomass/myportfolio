@@ -125,7 +125,7 @@ class AchievementsUI {
           achievement == "TNSCST" ||
           achievement == "TCS_XR_Pro"
         ) {
-          var carousel = `<div class="portfolio-details-slider swiper">
+          var carousel = `<div class="project-details-slider swiper">
           <div class="swiper-wrapper align-items-center">
           <div id="carouselExampleIndicators" class="carousel slide">
           <div class="carousel-indicators">
@@ -159,7 +159,7 @@ class AchievementsUI {
           </div>            
         </div>`;
         } else if (achievement == "EXPO_19" || achievement == "SAR_Tire2") {
-          var carousel = `<div class="portfolio-details-slider swiper">
+          var carousel = `<div class="project-details-slider swiper">
           <div class="swiper-wrapper align-items-center">
           <div id="carouselExampleIndicators" class="carousel slide">
           <div class="carousel-indicators">
@@ -185,54 +185,116 @@ class AchievementsUI {
           </div>            
         </div>`;
         } else {
-          var carousel = `<div class="portfolio-details-slider swiper">
+          var carousel = `<div class="project-details-slider swiper">
           <div class="swiper-wrapper align-items-center">
           <img src="assets/img/acheivements/${image1}.jpg" alt="">              
         </div>`;
         }
-        result += `      
 
-    <section id="portfolio-details" class="portfolio-details">
-    <div class="container">
-      <div class="row gy-4">
-        <div class="col-lg-8">
-${carousel}
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="portfolio-info">
-            <h3>Project information</h3>
-            <ul>
-              <li><strong>Category</strong>: ${category}</li>
-              <li><strong>Position</strong>: ${place}</li>
-              <li><strong>Prize</strong>: ${prize}</li>
-              <li><strong>Organizer</strong>: ${organizers}</li>
-              <li><strong>Duration</strong>: ${duration}</li>
-              <li><strong>Project date</strong>: ${projectDate}</li>
-              <li><strong>Preparation Time</strong>: ${preparationTime}</li>
-              <li><strong>Location</strong>: ${location}</li>
-              <!--<li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>-->
-            </ul>
-          </div>
-        </div>
-        <div class="portfolio-description">
-          <h2>About Competition</h2>
-          ${aboutCompetition}
-        </div>
-        <div class="portfolio-description">
-          <h2>Problem Statement</h2>
-          ${problemStatement}
-        </div>
-        <div class="portfolio-description">
-          <h2>Solution</h2>
-          ${solution}
-          ${video}
-          <img src="assets/img/acheivements/${certificate}.jpg" class="d-block w-100 alt="certificate">
-          </div>
-      </div>
-    </div>
-  </section>
-      `;
+        // Build image gallery (Swiper)
+        let imageGallery = "";
+        const images = [
+          image1,
+          image2,
+          image3,
+          image4,
+          image5,
+          image6,
+          image7,
+          image8,
+          image9,
+          image10,
+        ].filter((img) => img && img !== "Empty");
+        images.forEach((img, idx) => {
+          imageGallery += `<div class="swiper-slide"><img src="assets/img/acheivements/${img}.jpg" alt="${name} Achievement Image ${
+            idx + 1
+          }"></div>`;
+        });
+        let gallerySection = `
+          <div class="project-gallery">
+            <div class="swiper project-details-slider">
+              <div class="swiper-wrapper align-items-center">
+                ${imageGallery}
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>`;
+
+        // Build info card
+        let infoCard = `
+          <div class="card glass-card h-100">
+            <div class="card-body">
+              <h3 class="card-title mb-4">
+                <i class="bi bi-info-circle me-2"></i>Achievement Information
+              </h3>
+              <div class="project-info-list">
+                <div class="info-item mb-3"><div class="info-label"><i class="bi bi-tag me-2"></i><strong>Category</strong></div><div class="info-value">${category}</div></div>
+                <div class="info-item mb-3"><div class="info-label"><i class="bi bi-award me-2"></i><strong>Place</strong></div><div class="info-value">${place}</div></div>
+                <div class="info-item mb-3"><div class="info-label"><i class="bi bi-calendar me-2"></i><strong>Date</strong></div><div class="info-value">${projectDate}</div></div>
+                <div class="info-item mb-3"><div class="info-label"><i class="bi bi-clock me-2"></i><strong>Duration</strong></div><div class="info-value">${duration}</div></div>
+                <div class="info-item mb-3"><div class="info-label"><i class="bi bi-hourglass-split me-2"></i><strong>Preparation</strong></div><div class="info-value">${preparationTime}</div></div>
+                <div class="info-item mb-3"><div class="info-label"><i class="bi bi-people me-2"></i><strong>Team</strong></div><div class="info-value">${team}</div></div>
+                <div class="info-item mb-3"><div class="info-label"><i class="bi bi-geo-alt me-2"></i><strong>Location</strong></div><div class="info-value">${location}</div></div>
+                <div class="info-item mb-3"><div class="info-label"><i class="bi bi-building me-2"></i><strong>Organizers</strong></div><div class="info-value">${organizers}</div></div>
+                <div class="info-item mb-3"><div class="info-label"><i class="bi bi-gift me-2"></i><strong>Prize</strong></div><div class="info-value">${prize}</div></div>
+              </div>
+            </div>
+          </div>`;
+
+        // Build description/sections
+        let problemSection =
+          problemStatement && problemStatement.trim() !== ""
+            ? `
+          <div class="card glass-card mb-4"><div class="card-body">
+            <h3 class="card-title mb-4"><i class="bi bi-question-circle me-2"></i>Problem Statement</h3>
+            <div class="project-description">${problemStatement}</div>
+          </div></div>`
+            : "";
+        let aboutSection =
+          aboutCompetition && aboutCompetition.trim() !== ""
+            ? `
+          <div class="card glass-card mb-4"><div class="card-body">
+            <h3 class="card-title mb-4"><i class="bi bi-info-square me-2"></i>About Competition</h3>
+            <div class="project-description">${aboutCompetition}</div>
+          </div></div>`
+            : "";
+        let solutionSection =
+          solution && solution.trim() !== ""
+            ? `
+          <div class="card glass-card mb-4"><div class="card-body">
+            <h3 class="card-title mb-4"><i class="bi bi-lightbulb me-2"></i>Solution</h3>
+            <div class="project-description">${solution}</div>
+          </div></div>`
+            : "";
+        let videoSection =
+          product.video && product.video !== "Empty"
+            ? `
+          <div class="card glass-card mb-4"><div class="card-body">
+            <h3 class="card-title mb-4"><i class="bi bi-play-circle me-2"></i>Demo Video</h3>
+            <div class="project-video"><div class="ratio ratio-16x9"><iframe src="${product.video}" frameborder="0" allowfullscreen></iframe></div></div>
+          </div></div>`
+            : "";
+
+        result += `
+          <section id="achievement-details" class="project-details section-bg">
+            <div class="container" data-aos="fade-up">
+              <div class="section-title">
+                <h2>${name}</h2>
+              </div>
+              <div class="row gy-4">
+                <div class="col-lg-8">${gallerySection}</div>
+                <div class="col-lg-4">${infoCard}</div>
+              </div>
+              <div class="row mt-5">
+                <div class="col-12">
+                  ${problemSection}
+                  ${aboutSection}
+                  ${solutionSection}
+                  ${videoSection}
+                </div>
+              </div>
+            </div>
+          </section>`;
       } else {
       }
     });
