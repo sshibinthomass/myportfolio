@@ -85,11 +85,7 @@ class UI {
       <div class="col-lg-4 col-md-6 project-item filter-${category}">
         <div class="project-wrap m-2">
           <img src="assets/img/project/${image1}.jpeg" class="img-fluid" alt="${name}" />
-          <div class="project-links">
-            <a href="project-details.html?project=${encodeURIComponent(
-              name
-            )}" title="More Details">${name}</a>
-          </div>
+
         </div>
         <div class="d-flex justify-content-between align-items-center pt-2 m-2">
           <h4 class="text-center pt-2">${name}</h4>

@@ -89,7 +89,7 @@ class UI {
         }
 
         if (appLink && appLink !== "None") {
-          appLinkSection = `<li><strong>App Link</strong>: <a href="${appLink}" target="_blank" rel="noopener noreferrer">View App</a></li>`;
+          appLinkSection = `<li><strong>App Link</strong>: <a href="{appLink}" target="_blank" rel="noopener noreferrer">View App</a></li>`;
         }
 
         // Build image gallery
@@ -156,12 +156,6 @@ class UI {
                           <i class="bi bi-info-circle me-2"></i>Project Information
                         </h3>
                         <div class="project-info-list">
-                          <div class="info-item mb-3">
-                            <div class="info-label">
-                              <i class="bi bi-tag me-2"></i><strong>Category</strong>
-                            </div>
-                            <div class="info-value">${category}</div>
-                          </div>
                           
                           <div class="info-item mb-3">
                             <div class="info-label">

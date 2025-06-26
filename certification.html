@@ -43,6 +43,8 @@
     <link href="assets/css/cool-effects.css" rel="stylesheet" />
     <!-- Uniform Spacing CSS -->
     <link href="assets/css/uniform-spacing.css" rel="stylesheet" />
+    <!-- Certification CSS -->
+    <link href="assets/css/certification.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -69,32 +71,40 @@
               href="https://twitter.com/sshibinthomass"
               class="twitter"
               target="_blank"
+              rel="noopener"
               ><i class="bx bxl-twitter"></i
             ></a>
             <a
               href="https://www.facebook.com/shibint85"
               class="facebook"
               target="_blank"
+              rel="noopener"
               ><i class="bx bxl-facebook"></i
             ></a>
             <a
               href="https://instagram.com/shibin._.thomas"
               class="instagram"
               target="_blank"
+              rel="noopener"
               ><i class="bx bxl-instagram"></i
             ></a>
             <a
               href="https://api.whatsapp.com/send?phone=4915566440790"
               target="_blank"
+              rel="noopener"
               ><i class="bx bxl-whatsapp"></i
             ></a>
             <a
               href="https://www.linkedin.com/in/sshibinthomass"
               class="linkedin"
               target="_blank"
+              rel="noopener"
               ><i class="bx bxl-linkedin"></i
             ></a>
-            <a href="https://github.com/sshibinthomass" target="_blank"
+            <a
+              href="https://github.com/sshibinthomass"
+              target="_blank"
+              rel="noopener"
               ><i class="bx bxl-github"></i
             ></a>
           </div>
@@ -103,9 +113,7 @@
         <nav id="navbar" class="nav-menu navbar">
           <ul>
             <li>
-              <a
-                href="index.html#intro"
-                class="nav-link scrollto color-yellow active pb-0"
+              <a href="index.html#intro" class="nav-link scrollto pb-0"
                 ><i class="bx bx-home"></i> <span>Home</span></a
               >
             </li>
@@ -148,7 +156,7 @@
 
     <main id="main">
       <!-- ======= Certification Section ======= -->
-      <section id="project" class="project section-bg">
+      <section id="certification" class="project section-bg">
         <div class="container">
           <div class="section-title">
             <h2>Certifications</h2>
@@ -180,6 +188,46 @@
       <!-- End Certification Section -->
     </main>
     <!-- End #main -->
+
+    <!-- ======= Image Modal ======= -->
+    <div
+      id="imageModal"
+      class="modal fade"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="imageModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="imageModalLabel">Certificate</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-center">
+            <img id="modalImage" src="" alt="Certificate" class="img-fluid" />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <a id="downloadLink" href="" download class="btn btn-primary">
+              <i class="bi bi-download"></i> Download
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Image Modal -->
 
     <!-- ======= Footer =======
   <footer id="footer">

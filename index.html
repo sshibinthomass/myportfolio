@@ -714,259 +714,78 @@
       <!-- ======= Certification Section ======= -->
       <section id="certification" class="project section-bg">
         <div class="container">
-          <div class="section-title animated-title">
+          <div
+            class="d-flex justify-content-between align-items-center section-title animated-title"
+          >
             <h2>Certifications</h2>
+            <a href="certification.html" class="btn btn-primary btn-sm"
+              >Show More</a
+            >
           </div>
 
           <div
+            id="featured-certifications"
             class="row project-container"
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <div class="col-lg-4 col-md-6 project-item">
-              <div class="project-wrap">
-                <img
-                  src="assets/img/certifications/Deep_Learing_Specialization.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="project-links">
-                  <a
-                    href="assets/img/certifications/Deep_Learing_Specialization.jpg"
-                    data-gallery="portfolioGallery"
-                    class="project-lightbox"
-                    target="_blank"
-                    rel="noopener"
-                    title="Deep Learing Specialization"
-                    ><i class="bx bx-plus"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 project-item">
-              <div class="project-wrap">
-                <img
-                  src="assets/img/certifications/NIT_Pragyan.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="project-links">
-                  <a
-                    href="assets/img/certifications/NIT_Pragyan.jpg"
-                    data-gallery="portfolioGallery"
-                    class="project-lightbox"
-                    target="_blank"
-                    rel="noopener"
-                    title="NIT Pragyan"
-                    ><i class="bx bx-plus"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 project-item">
-              <div class="d-flex justify-content-center pt-3 mt-5">
-                <a href="certification.html"
-                  ><img
-                    src="assets/img/show more.png"
-                    alt="Computer Man"
-                    style="width: 80px; height: 80px"
-                /></a>
-              </div>
-              <br />
-              <a class="d-flex justify-content-center" href="certification.html"
-                >Show More...</a
-              >
-            </div>
+            <!-- Featured certifications will be loaded here by JS -->
           </div>
         </div>
       </section>
       <!-- End Certification Section -->
 
-      <!-- ======= skills Section ======= -->
-      <section id="skills" class="skills">
-        <div class="container" data-aos="fade-up">
-          <div class="skills-title animated-title">
-            <h2>Technology Stack</h2>
-          </div>
-          <div class="row">
-            <div
-              class="col-lg-3 col-md-6 mt-4"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div class="icon-box glass-card">
-                <div class="icon animated-icon">
-                  <img
-                    src="https://raw.githubusercontent.com/sshibinthomass/web-images/c6b741f520205fd91165b168e119eda0012bd50f/Portfolio/Portfoilo%20site/P-icons/python.svg"
-                    alt="Python"
-                    width="80"
-                    height="80"
-                  />
-                </div>
-                <h4><a>Python</a></h4>
-              </div>
+      <!-- ======= Certification Modal ======= -->
+      <div
+        id="featuredCertModal"
+        class="modal fade"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="featuredCertModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="featuredCertModalLabel">
+                Certificate
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
             </div>
-            <div
-              class="col-lg-3 col-md-6 mt-4"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div class="icon-box glass-card">
-                <div class="icon animated-icon">
-                  <img
-                    src="https://raw.githubusercontent.com/sshibinthomass/web-images/main/Portfolio/Portfoilo%20site/P-icons/raspberry-pi.svg"
-                    alt="Raspberry Pi"
-                    width="80"
-                    height="80"
-                  />
-                </div>
-                <h4><a>Raspberry-Pi</a></h4>
-              </div>
+            <div class="modal-body text-center">
+              <img
+                id="featuredCertModalImage"
+                src=""
+                alt="Certificate"
+                class="img-fluid"
+              />
             </div>
-
-            <div
-              class="col-lg-3 col-md-6 mt-4"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div class="icon-box glass-card">
-                <div class="icon animated-icon">
-                  <img
-                    src="https://raw.githubusercontent.com/sshibinthomass/web-images/main/Portfolio/Portfoilo%20site/P-icons/matlab.svg"
-                    alt="Matlab"
-                    width="80"
-                    height="80"
-                  />
-                </div>
-                <h4><a>Matlab</a></h4>
-              </div>
-            </div>
-            <div
-              class="col-lg-3 col-md-6 mt-4"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div class="icon-box glass-card">
-                <div class="icon animated-icon">
-                  <img
-                    src="https://raw.githubusercontent.com/sshibinthomass/web-images/c6b741f520205fd91165b168e119eda0012bd50f/Portfolio/Portfoilo%20site/P-icons/django.svg"
-                    alt="Django"
-                    width="80"
-                    height="80"
-                  />
-                </div>
-                <h4><a>Django</a></h4>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-3 col-md-6 mt-4"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div class="icon-box glass-card">
-                <div class="icon animated-icon">
-                  <img
-                    src="https://raw.githubusercontent.com/sshibinthomass/web-images/c6b741f520205fd91165b168e119eda0012bd50f/Portfolio/Portfoilo%20site/P-icons/tensorflow.svg"
-                    alt="Tensorflow"
-                    width="80"
-                    height="80"
-                  />
-                </div>
-                <h4><a>Tensorflow</a></h4>
-              </div>
-            </div>
-            <div
-              class="col-lg-3 col-md-6 mt-4"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div class="icon-box glass-card">
-                <div class="icon animated-icon">
-                  <img
-                    src="https://raw.githubusercontent.com/sshibinthomass/web-images/c6b741f520205fd91165b168e119eda0012bd50f/Portfolio/Portfoilo%20site/P-icons/opencv.svg"
-                    alt="OpenCV"
-                    width="80"
-                    height="80"
-                  />
-                </div>
-                <h4><a>OpenCV</a></h4>
-              </div>
-            </div>
-            <div
-              class="col-lg-3 col-md-6 mt-4"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div class="icon-box glass-card">
-                <div class="icon animated-icon">
-                  <img
-                    src="https://raw.githubusercontent.com/sshibinthomass/web-images/c6b741f520205fd91165b168e119eda0012bd50f/Portfolio/Portfoilo%20site/P-icons/unity.svg"
-                    alt="Unity"
-                    width="80"
-                    height="80"
-                  />
-                </div>
-                <h4><a>Unity</a></h4>
-              </div>
-            </div>
-            <div
-              class="col-lg-3 col-md-6 mt-4"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div class="icon-box glass-card">
-                <div class="icon animated-icon">
-                  <img
-                    src="https://raw.githubusercontent.com/sshibinthomass/web-images/c6b741f520205fd91165b168e119eda0012bd50f/Portfolio/Portfoilo%20site/P-icons/vr-ar.svg"
-                    alt="Google VR"
-                    width="80"
-                    height="80"
-                  />
-                </div>
-                <h4><a>Google VR</a></h4>
-              </div>
-            </div>
-            <div
-              class="col-lg-3 col-md-6 mt-4"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div class="icon-box glass-card">
-                <div class="icon animated-icon">
-                  <img
-                    src="https://raw.githubusercontent.com/sshibinthomass/web-images/8bcb236f8e9226de3ca3e9beb68d78b2814729df/Portfolio/Portfoilo%20site/P-icons/ar.svg"
-                    alt="AR Core"
-                    width="80"
-                    height="80"
-                  />
-                </div>
-                <h4><a>AR Core</a></h4>
-              </div>
-            </div>
-            <div
-              class="col-lg-3 col-md-6 mt-4"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div class="icon-box glass-card">
-                <div class="icon animated-icon">
-                  <img
-                    src="https://raw.githubusercontent.com/sshibinthomass/web-images/8bcb236f8e9226de3ca3e9beb68d78b2814729df/Portfolio/Portfoilo%20site/P-icons/github.svg"
-                    alt="Github"
-                    width="80"
-                    height="80"
-                  />
-                </div>
-                <h4><a>Github</a></h4>
-              </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <a
+                id="featuredCertDownloadLink"
+                href=""
+                download
+                class="btn btn-primary"
+              >
+                <i class="bi bi-download"></i> Download
+              </a>
             </div>
           </div>
         </div>
-      </section>
-      <!-- End skills Section -->
+      </div>
+      <!-- End Certification Modal -->
 
       <!-- ======= Hobbies Section ======= -->
       <section id="Hobbies" class="testimonials section-bg">
@@ -1227,5 +1046,7 @@
     <script src="./assets/js/dark-mode.js"></script>
     <!-- Cool Effects JS -->
     <script src="./assets/js/cool-effects.js"></script>
+    <!-- Featured Certifications JS -->
+    <script src="assets/js/featuredCerts.js"></script>
   </body>
 </html>

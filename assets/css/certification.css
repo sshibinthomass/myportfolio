@@ -1,0 +1,324 @@
+/* Certification Page Specific Styles */
+
+/* Certificate Cards */
+.all-certifications .project-wrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+}
+
+.all-certifications .project-wrap:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.all-certifications .project-wrap img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  display: block;
+  cursor: pointer;
+}
+
+.all-certifications .project-wrap:hover img {
+  transform: scale(1.05);
+}
+
+/* Certificate Info */
+.certificate-info {
+  padding: 10px;
+  text-align: center;
+}
+
+.certificate-info h6 {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.certificate-info .badge {
+  font-size: 11px;
+  padding: 4px 8px;
+}
+
+/* Filter Buttons */
+#project-flters {
+  padding: 0;
+  margin: 0 auto 30px auto;
+  list-style: none;
+  text-align: center;
+  background: #f8f9fa;
+  border-radius: 50px;
+  padding: 8px 15px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+
+#project-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #444;
+  margin: 0 3px 10px 3px;
+  transition: all 0.3s ease;
+  border-radius: 25px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+}
+
+#project-flters li:hover,
+#project-flters li.filter-active {
+  color: #fff;
+  background: #149ddd;
+  border-color: #149ddd;
+}
+
+/* Modal Styles - Higher z-index to appear above header */
+#imageModal {
+  z-index: 99999 !important;
+}
+
+#imageModal .modal-backdrop {
+  z-index: 99998 !important;
+}
+
+#imageModal .modal-content {
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+#imageModal .modal-header {
+  border-bottom: 1px solid #e0e0e0;
+  background: #f8f9fa;
+  border-radius: 12px 12px 0 0;
+}
+
+#imageModal .modal-title {
+  font-weight: 600;
+  color: #333;
+}
+
+#imageModal .modal-body {
+  padding: 20px;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+#imageModal .modal-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#imageModal .modal-footer {
+  border-top: 1px solid #e0e0e0;
+  background: #f8f9fa;
+  border-radius: 0 0 12px 12px;
+}
+
+#imageModal .btn {
+  border-radius: 6px;
+  font-weight: 500;
+  padding: 8px 16px;
+}
+
+#imageModal .btn-primary {
+  background: #149ddd;
+  border-color: #149ddd;
+}
+
+#imageModal .btn-primary:hover {
+  background: #2eafec;
+  border-color: #2eafec;
+}
+
+#imageModal .btn-secondary {
+  background: #6c757d;
+  border-color: #6c757d;
+}
+
+#imageModal .btn-secondary:hover {
+  background: #5a6268;
+  border-color: #545b62;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .all-certifications .project-wrap img {
+    height: 200px;
+  }
+  
+  #project-flters {
+    padding: 6px 10px;
+  }
+  
+  #project-flters li {
+    padding: 6px 12px;
+    font-size: 13px;
+    margin: 0 2px 8px 2px;
+  }
+  
+  #imageModal .modal-dialog {
+    margin: 10px;
+  }
+  
+  #imageModal .modal-body {
+    padding: 15px;
+    max-height: 60vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .all-certifications .col-lg-4 {
+    margin-bottom: 20px;
+  }
+  
+  .certificate-info h6 {
+    font-size: 13px;
+  }
+  
+  .certificate-info .badge {
+    font-size: 10px;
+  }
+}
+
+/* Dark Mode Styles */
+body.dark-mode .all-certifications .project-wrap {
+  background: var(--dark-bg-secondary);
+  border-color: var(--dark-border);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .all-certifications .project-wrap:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-mode .certificate-info h6 {
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .certificate-info .badge {
+  background: var(--dark-accent) !important;
+  color: #fff;
+}
+
+body.dark-mode #project-flters {
+  background: var(--dark-bg-tertiary);
+}
+
+body.dark-mode #project-flters li {
+  color: var(--dark-text-primary);
+  background: var(--dark-bg-secondary);
+  border-color: var(--dark-border);
+}
+
+body.dark-mode #project-flters li:hover,
+body.dark-mode #project-flters li.filter-active {
+  color: #fff;
+  background: var(--dark-accent);
+  border-color: var(--dark-accent);
+}
+
+body.dark-mode #imageModal .modal-content {
+  background: var(--dark-bg-secondary);
+  border-color: var(--dark-border);
+}
+
+body.dark-mode #imageModal .modal-header {
+  background: var(--dark-bg-tertiary);
+  border-bottom-color: var(--dark-border);
+}
+
+body.dark-mode #imageModal .modal-title {
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode #imageModal .modal-body {
+  background: var(--dark-bg-secondary);
+}
+
+body.dark-mode #imageModal .modal-footer {
+  background: var(--dark-bg-tertiary);
+  border-top-color: var(--dark-border);
+}
+
+body.dark-mode #imageModal .btn-secondary {
+  background: var(--dark-bg-secondary);
+  border-color: var(--dark-border);
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode #imageModal .btn-secondary:hover {
+  background: var(--dark-bg-tertiary);
+  border-color: var(--dark-accent);
+}
+
+body.dark-mode #imageModal .btn-primary {
+  background: var(--dark-accent);
+  border-color: var(--dark-accent);
+}
+
+body.dark-mode #imageModal .btn-primary:hover {
+  background: var(--dark-accent-hover);
+  border-color: var(--dark-accent-hover);
+}
+
+.show-more-cert {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 32px;
+  position: relative;
+  z-index: 1;
+}
+
+#featured-certifications {
+  margin-bottom: 32px;
+}
+
+.show-more-cert img {
+  margin: 0 auto 8px auto;
+  display: block;
+}
+.show-more-link {
+  font-weight: 500;
+  color: #149ddd;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+.show-more-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Ensure modal is always above other content */
+#featuredCertModal {
+  z-index: 99999 !important;
+}
+#featuredCertModal .modal-backdrop {
+  z-index: 99998 !important;
+}
+
+.project-wrap img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  display: block;
+  cursor: pointer;
+  margin: 0 auto;
+} 
