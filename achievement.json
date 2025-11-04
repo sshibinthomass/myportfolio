@@ -5,6 +5,70 @@
         "id": "1"
       },
       "fields": {
+        "name": "BMW",
+        "competition": "BMW Hackathon",
+        "place": "1st Place",
+        "organizers": "BMW",
+        "projectDate": "24th October 2025",
+        "duration": "48 Hours",
+        "preparationTime": "",
+        "category": "Contact Retrival",
+        "location": "BMW Startup Garage, München",
+        "team": "3 Members",
+        "prize": "500€",
+        "problemStatement": "<ul>\n                <li>Develop cutting-edge AI solutions for real-world applications at BMW.</li>\n                <li>Address the Contact Retrieval Challenge through intelligent data analysis and extraction.</li>\n                <li>Build systems capable of intelligently analyzing and extracting information from complex data sets.</li>\n                <li>Transform raw data into actionable insights for BMW's operations and decision-making processes.</li>\n                </ul>",
+        "aboutCompetition": "The BMW Group x TUM.ai Hackathon is an intense 48-hour event organized by BMW Group and TUM.ai, held at the BMW Group Startup Garage in München. This competition brings together talented participants to develop cutting-edge AI solutions for real-world applications at BMW. The hackathon is co-sponsored by Vercel and OpenAI, providing participants with access to state-of-the-art AI tools and platforms. Participants work under the guidance of industry experts and mentors, including BMW professionals, to create innovative solutions that address real business challenges.",
+        "solution": "<p align=\"justify\">&emsp;\r\n\r\n    Our winning solution for the Contact Retrieval Challenge at the BMW Group x TUM.ai Hackathon represents a sophisticated AI-driven system designed to intelligently analyze and extract information from complex data sets. This solution was the result of a massive collaborative effort, successfully built and demoed during the intense 48-hour hackathon event.\r\n\r\n    <br><br>&emsp;At its core, the system leverages advanced artificial intelligence to process, analyze, and extract meaningful information from diverse data sources. The AI framework is specifically engineered to make sense of unstructured and semi-structured data, transforming raw information into actionable insights that can support BMW's real-world applications and business processes.\r\n    \r\n    <br><br>&emsp;The intelligent analysis capabilities of the system enable it to identify patterns, relationships, and key information points within large volumes of data. This functionality is particularly crucial for contact retrieval, where the system must efficiently locate and extract relevant contact information from various sources while maintaining accuracy and context.\r\n    \r\n    <br><br>&emsp;The development process, condensed into just 48 hours, required exceptional teamwork and coordination. Working alongside teammates Dennis Hermann and Theresa Geber, we successfully integrated cutting-edge AI technologies to create a robust solution. The collaboration involved rapid prototyping, iterative development, and continuous refinement under the guidance of our mentor, Michal Kuemmel.\r\n    \r\n    <br><br>&emsp;The solution demonstrates the practical application of AI agents and modern machine learning techniques in solving real-world business challenges. By leveraging the resources provided by co-sponsors Vercel and OpenAI, we were able to build upon state-of-the-art AI infrastructure and deploy a working prototype within the tight timeframe.\r\n    \r\n    <br><br>&emsp;While specific technical details and business applications remain confidential due to proprietary considerations, the system's architecture focuses on scalability, accuracy, and practical utility for BMW's operational needs. The AI-powered approach enables automated information extraction that would otherwise require significant manual effort and time.\r\n    \r\n    <br><br>&emsp;Securing 1st place in this prestigious hackathon validates the solution's innovation and effectiveness in addressing the Contact Retrieval Challenge. The achievement reflects not only technical excellence but also the ability to rapidly develop and demonstrate a working AI solution that meets real-world business requirements. The experience of working with BMW Group and TUM.ai provided invaluable insights into the practical challenges and opportunities in applying AI to enterprise-level problems.\r\n\r\n</p>",
+        "image1": "SIH1",
+        "image2": "SIH2",
+        "image3": "SIH3",
+        "image4": "SIH4",
+        "image5": "SIH5",
+        "image6": "Empty",
+        "image7": "Empty",
+        "image8": "Empty",
+        "image9": "Empty",
+        "image10": "Empty",
+        "video": "https://www.youtube.com/embed/F9xCMl1qXHo"
+      }
+    },
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "name": "BKW",
+        "competition": "BKW Hackathon",
+        "place": "2nd Place",
+        "organizers": "BKW Engineering",
+        "projectDate": "18th October 2025",
+        "duration": "24 Hours",
+        "preparationTime": "",
+        "category": "Open Innovation in Civil Engineering",
+        "location": "BKW, MARK München",
+        "team": "5 Members",
+        "prize": "500€",
+        "problemStatement": "<ul>\n                <li>Solving engineering challenges and applying AI to address on-ground industrial problems.</li>\n                <li>Transforming historical engineering design data into actionable knowledge for design optimization.</li>\n                <li>Enabling faster decision-making in engineering workflows through AI-driven solutions.</li>\n                <li>Addressing transparency and efficiency in engineering design processes.</li>\n                </ul>",
+        "aboutCompetition": "The BKW Engineering x TUM.ai Makeathon is an intensive competition that focuses on solving engineering challenges and applying AI to address on-ground industrial problems. Unlike typical hackathons, this makeathon emphasizes practical solutions for real-world engineering challenges, bringing together students and industry experts to create innovative AI-driven solutions within a 24-hour timeframe.",
+        "solution": "<p align=\"justify\">&emsp;\r\n\r\n    GenDesign represents an innovative AI-driven solution that transforms historical engineering design data into actionable knowledge for design optimization and faster decision-making. Developed during the intense 24-hour makeathon, this groundbreaking system addresses critical pain points in engineering workflows while showcasing how Agentic AI can empower engineers rather than replace them.\r\n\r\n    <br><br>&emsp;At the core of GenDesign lies a sophisticated AI agent framework integrated with an intelligent chatbot interface. This system excels at explaining how and why design changes improve performance, providing engineers with clear, actionable insights derived from historical design data. The AI agents analyze patterns, identify optimization opportunities, and communicate these findings in an intuitive, understandable manner.\r\n    \r\n    <br><br>&emsp;One of the platform's standout features is its ability to generate optimized 3D designs automatically. By leveraging machine learning algorithms trained on historical engineering data, GenDesign can propose design modifications that enhance performance, reduce material usage, or improve structural integrity. This capability significantly accelerates the design iteration process, enabling engineers to explore more design alternatives in less time.\r\n    \r\n    <br><br>&emsp;To ensure transparency and efficiency in engineering workflows, GenDesign incorporates comprehensive task and leave approval systems. These integrated management features provide clear visibility into project timelines, resource allocation, and team availability. This transparency helps prevent bottlenecks and enables better coordination across engineering teams.\r\n    \r\n    <br><br>&emsp;The entire solution was designed, built, and demoed within the challenging 24-hour timeframe of the makeathon, demonstrating exceptional teamwork and technical capability. The experience of working under industry experts provided invaluable insights into real-world engineering challenges and the potential impact of AI solutions in industrial settings.\r\n    \r\n    <br><br>&emsp;GenDesign's philosophy centers on empowerment rather than replacement. The solution removes engineering pain points by automating routine analyses and optimizations while keeping engineers in control of critical decisions. This human-AI collaboration model ensures that the expertise and intuition of experienced engineers are enhanced rather than supplanted by artificial intelligence.\r\n    \r\n    <br><br>&emsp;In summary, GenDesign showcases the transformative potential of Agentic AI in engineering contexts. By combining intelligent data analysis, automated design optimization, and workflow transparency, this solution addresses both immediate challenges and long-term needs in engineering design processes. The achievement of securing 2nd place in the Open Track at the BKW Engineering x TUM.ai Makeathon validates the solution's innovation and practical applicability in real-world industrial settings.\r\n\r\n</p>",
+        "image1": "SIH1",
+        "image2": "SIH2",
+        "image3": "SIH3",
+        "image4": "SIH4",
+        "image5": "SIH5",
+        "image6": "Empty",
+        "image7": "Empty",
+        "image8": "Empty",
+        "image9": "Empty",
+        "image10": "Empty",
+        "video": "https://www.youtube.com/embed/F9xCMl1qXHo"
+      }
+    },
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
         "name": "SIH",
         "competition": "Smart India Hackathon(W)",
         "place": "1st Place",
